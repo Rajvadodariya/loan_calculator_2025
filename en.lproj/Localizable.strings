@@ -1,0 +1,473 @@
+"welcome" = "Welcome";
+"select_country" = "Select Your Country";
+"select_country_subtitle" = "To provide accurate tax and rule estimates";
+"app_language" = "App Language";
+"continue" = "Continue";
+"settings" = "Settings";
+"analysis" = "Analysis";
+"home" = "Home";
+
+/* Calculator Types */
+"emi_calculator" = "EMI Calculator";
+"auto_loan" = "Auto / Car";
+"home_loan" = "Home / Mortgage";
+"personal_loan" = "Personal Loan";
+"student_loan" = "Student Loan";
+"fha_loan" = "FHA Loan (USA)";
+"eligibility" = "Borrowing Power";
+"stamp_duty" = "Stamp Duty / Tax";
+"reverse_calc" = "Loan Payment (Reverse)";
+"comparison" = "Loan Comparison";
+"rv_loan" = "RV Loan";
+
+/* Input Fields */
+"loan_amount" = "Loan Amount";
+"interest_rate" = "Interest Rate";
+"loan_term" = "Loan Term";
+"down_payment" = "Down Payment";
+"trade_in_value" = "Trade-In Value";
+"sales_tax" = "Sales Tax";
+"registration_fees" = "Registration Fees";
+"property_tax" = "Property Tax";
+"home_insurance" = "Home Insurance";
+"monthly_payment" = "Monthly Payment";
+"years" = "Years";
+"months" = "Months";
+
+/* Results */
+"calculate" = "Calculate";
+"monthly_emi" = "Monthly EMI";
+"total_interest" = "Total Interest";
+"total_payment" = "Total Payment";
+"payoff_date" = "Payoff Date";
+"interest_saved" = "Interest Saved";
+"time_saved" = "Time Saved";
+"principal" = "Principal";
+
+/* Export */
+"share" = "Share";
+"export_pdf" = "Export PDF Report";
+"export_csv" = "Export CSV (Excel)";
+"share_summary" = "Share Text Summary";
+"loan_summary_report" = "Loan Summary Report";
+
+/* Support */
+"support" = "Support";
+"need_help" = "Need Help?";
+"help_subtitle" = "We're here to assist you with any questions.";
+"email_support" = "Email Support";
+"email_response" = "We usually respond within 24 hours.";
+"report_bug" = "Report a Bug";
+"report_bug_subtitle" = "Help us improve by reporting issues.";
+"common_questions" = "Common Questions";
+"common_questions_subtitle" = "Find quick answers to common queries.";
+"app_version" = "App Version";
+
+/* How to Use */
+"how_to_use" = "How to Use";
+"understanding_loan_title" = "Understanding Your Loan";
+"understanding_loan_para" = "This guide helps you understand the inputs needed for accurate loan calculations and where to find them.";
+"advanced_tools_title" = "Advanced Tools";
+"country_rules_title" = "Country-Specific Rules";
+"where_to_find_title" = "Where to Find Information";
+"loan_estimate_title" = "Loan Estimate";
+"loan_estimate_desc" = "A three-page form you receive after applying for a mortgage.";
+"closing_disclosure_title" = "Closing Disclosure";
+"closing_disclosure_desc" = "A final document detailing all terms of your loan.";
+"lender_website_title" = "Lender Website";
+"lender_website_desc" = "Check the 'Rates' section for current interest offerings.";
+"general_inputs" = "General Inputs";
+
+/* Guidance / Info Page */
+"guidance_for" = "Guidance for %@";
+"key_inputs" = "Key Inputs";
+"expert_tips" = "Expert Tips";
+"calculation_logic" = "Calculation Logic";
+"where_to_find_label" = "Where to find: %@";
+"done" = "Done";
+
+/* Descriptions */
+"desc_simple_guidance" = "General purpose calculator for personal or unsecured loans.";
+"desc_auto_guidance" = "Vehicle financing including trade-ins and tax.";
+"desc_rv_guidance" = "Financing for recreational vehicles and motorhomes.";
+"desc_home_guidance" = "Comprehensive mortgage calculator.";
+"desc_fha_guidance" = "USA-specific low down payment mortgage.";
+"desc_student_guidance" = "Calculates repayments for education and tuition financing.";
+"desc_eligibility_guidance" = "Estimates borrowing capacity based on income and debt levels.";
+"desc_stamp_duty_guidance" = "Calculates government tax on property transfers.";
+"desc_reverse_guidance" = "Calculates the maximum loan amount you can afford for a target payment.";
+"desc_comparison_guidance" = "Compare two loan scenarios to see the impact of rates and terms.";
+
+/* Input Details */
+"input_trade_in" = "Trade-In Value";
+"explain_trade_in" = "Value of your old vehicle.";
+"input_sales_tax" = "Sales Tax";
+"explain_sales_tax" = "Tax based on purchase price.";
+"input_registration" = "Registration Fees";
+"explain_registration" = "Costs for specialized RV licensing.";
+"input_property_tax" = "Property Tax";
+"explain_property_tax" = "Local government taxes.";
+"input_home_insurance" = "Home Insurance";
+"explain_home_insurance" = "Annual protection cost.";
+"input_grace_period" = "Grace Period";
+"explain_grace_period" = "Period after graduation before payments start.";
+"input_monthly_budget" = "Monthly Budget";
+"explain_monthly_budget" = "The payment amount you are comfortable with.";
+"input_annual_income" = "Annual Income";
+"explain_annual_income" = "Gross pre-tax income.";
+"input_monthly_debts" = "Monthly Debts";
+"explain_monthly_debts" = "Existing monthly bills.";
+"input_property_value" = "Property Value";
+"explain_property_value" = "Estimated market price.";
+"input_down_payment" = "Down Payment";
+"explain_down_payment" = "Initial cash contribution.";
+"input_loan_a_b" = "Loan A vs B";
+"explain_loan_a_b" = "Enter details for both scenarios.";
+
+/* Sources */
+"source_loan_amount_usa" = "Found on your Loan Estimate or pre-approval letter.";
+"source_loan_amount_india" = "Found on your Sanction Letter from the bank.";
+"source_annual_income_usa" = "Look at last year's W-2s or 1040 tax returns.";
+"source_annual_income_india" = "Check your Form 16 or Income Tax Return (ITR).";
+"source_property_tax_usa" = "Search your local county or tax assessor's website.";
+"source_property_tax_india" = "Circle rate or agreed purchase price on the sale deed.";
+"source_sales_tax_usa" = "Found on your state DMV website.";
+"source_sales_tax_india" = "Check current GST rates for vehicles.";
+"source_property_value_usa" = "Listing price or recent appraisal.";
+"source_property_value_india" = "Circle rate or market valuation.";
+"source_financial_statements" = "Check your financial statements or local government websites.";
+"source_lender_rates" = "Lender's 'Rates' page or loan agreement.";
+"source_repayment_schedule" = "Length of the repayment schedule.";
+"source_dmv" = "Refer to DMV/Transportation ministry.";
+"source_student_finance" = "Student Finance or Loan Service portal.";
+"source_insurance_quote" = "Insurance provider quote.";
+"source_budget_analysis" = "Derived from your household budget analysis.";
+"source_loan_offers" = "Different loan offers you've received.";
+
+/* Rules */
+"rule_usa_fha" = "FHA loans require MIP (Mortgage Insurance Premium).";
+"rule_usa_pmi" = "Conventional loans with <20% down usually require PMI.";
+"rule_india_gst" = "GST (typically 18%) often applies to processing fees.";
+"rule_uk_sdlt" = "SDLT thresholds vary for first-time buyers.";
+"rule_uk_erc" = "Early Repayment Charges are common on fixed deals.";
+"rule_aus_daily_int" = "Interest is typically calculated daily.";
+"rule_aus_lmi" = "Lenders Mortgage Insurance applies if deposit is <20%.";
+"rule_dti_cap" = "Most lenders cap housing costs at 28-30% of gross income.";
+"rule_progressive_rates" = "Rates are usually progressive based on price.";
+"rules_header" = "%@ Specific Rules";
+
+/* Tips */
+"tip_total_interest_comp" = "Focus on 'Total Interest Paid' to see long-term cost.";
+"tip_loan_fees" = "Check for processing fees or origination fees.";
+"tip_rv_terms" = "RV loans often have longer terms (up to 15-20 years).";
+"tip_drive_away" = "Dealer 'Drive-away' prices usually include tax and fees.";
+"tip_hoa_fees" = "Include HOA/Strata fees for accurate budgeting.";
+"tip_fha_down" = "FHA loans (USA) require 3.5% minimum down payment.";
+"tip_student_interest" = "Paying interest during grace period saves thousands.";
+"tip_student_forgiveness" = "Check for student loan forgiveness programs.";
+"tip_dti_ratio" = "Lenders look at your Debt-to-Income (DTI) ratio.";
+"tip_dti_reduction" = "Reducing existing debt increases borrowing power.";
+"tip_first_time_buyer" = "First-time buyers often receive exemptions.";
+"tip_concessions" = "Check for concessions based on property usage.";
+"tip_price_range" = "Useful for determining your price range.";
+"tip_lower_payment_cost" = "Lower monthly payment might cost more in total interest.";
+"tip_term_length" = "Shorter terms usually have lower interest rates.";
+
+/* Settings Section Headers */
+"support_feedback" = "Support & Feedback";
+"legal" = "Legal";
+"app_info" = "App Info";
+"get_support" = "Get Support";
+"share_app" = "Share App";
+"rate_app" = "Rate App";
+"privacy_policy" = "Privacy Policy";
+"terms_of_service" = "Terms of Service";
+"version" = "Version";
+"country" = "Country";
+"language" = "Language";
+"preferences" = "Preferences";
+
+/* Share Menu */
+"share_amortization" = "Share Amortization";
+"share_full_report" = "Share Full Report";
+"share_as_image" = "Share as Image";
+
+/* Additional Input Fields */
+"extra_payment" = "Extra Payment";
+"grace_period" = "Grace Period";
+"annual_income" = "Annual Income";
+"monthly_debts" = "Monthly Debts";
+"monthly_budget" = "Monthly Budget";
+"property_value" = "Property Value";
+"hoa_fees" = "HOA Fees";
+
+/* Units */
+"monthly" = "Monthly";
+"yearly" = "Yearly";
+"bi_weekly" = "Bi-Weekly";
+"month" = "Month";
+"year" = "Year";
+
+/* Actions & Buttons */
+"view_detailed_report" = "View Detailed Report";
+
+/* Results */
+"borrowing_power" = "Borrowing Power";
+"total_tax_fees" = "Total Tax & Fees";
+
+/* Sections */
+"loan_summary" = "Loan Summary";
+"amortization_schedule" = "Amortization Schedule";
+"monthly_escrow" = "Monthly Escrow";
+"payment_breakdown" = "Payment Breakdown";
+"show_all" = "Show All";
+"view_more" = "View More";
+"interest" = "Interest";
+"balance" = "Balance";
+
+/* Export */
+"share_as_pdf" = "Share as PDF";
+"share_as_excel" = "Share as Excel";
+
+/* Stamp Duty Calculator */
+"custom_tax_rate" = "Custom Tax Rate";
+"calculation_rule" = "Calculation Rule";
+"tax_rate_percent" = "Tax Rate (%)";
+"tax_amount" = "Tax Amount";
+"flat_fee_amount" = "Flat Fee Amount";
+"per_unit_value" = "Per Unit Value";
+"calculating_as" = "Calculating as";
+"for_every" = "for every";
+
+/* Loan Comparison */
+"loan_option_1" = "Loan Option 1";
+"loan_option_2" = "Loan Option 2";
+"amount" = "Amount";
+"rate_percent" = "Rate (%)";
+"option_1" = "Option 1";
+"option_2" = "Option 2";
+"difference_in_total" = "Difference in Total Cost";
+"total" = "Total";
+
+/* Extra Payment */
+"see_interest_save" = "See how much interest you save!";
+
+/* Payment Frequency */
+"frequency" = "Frequency";
+"share" = "Share as Text";
+
+/* Export & PDF/CSV Labels */
+"generated_by" = "Generated by";
+"loan_analysis_report" = "Loan Analysis Report";
+"summary" = "Summary";
+"type" = "Type";
+"down_payment" = "Down Payment";
+"trade_in_value" = "Trade-In Value";
+"sales_tax" = "Sales Tax";
+"registration_fees" = "Registration Fees";
+"property_tax_monthly" = "Property Tax (Monthly)";
+"home_insurance_monthly" = "Home Insurance (Monthly)";
+"hoa_fees_monthly" = "HOA Fees (Monthly)";
+"eligibility_analysis" = "Eligibility Analysis";
+"monthly_income" = "Monthly Income";
+"max_affordable_emi" = "Max Affordable EMI";
+"report" = "Report";
+"date" = "Date";
+"term" = "Term";
+"rate" = "Rate";
+"tax" = "Tax";
+"per_month" = "/mo";
+"months_short" = "months";
+"years_short" = "years";
+
+/* Stamp Duty Basis Descriptions */
+"stamp_duty_basis_usa" = "Property Transfer Tax (varies by country).\n• USA varies by state.\n• Typically 0.01% to 4% (real estate transfer tax).\n• Some states have no transfer tax.";
+"stamp_duty_basis_canada" = "Land Transfer Tax.\n• Federal: No federal transfer tax.\n• Provincial: Varies widely, e.g., Ontario has tiered rates from 0.5% to 2.5%.\n• First-time buyers may receive rebates.";
+"stamp_duty_basis_mexico" = "Impuesto sobre Adquisición de Inmuebles.\n• Typically 2% to 5% of property value.\n• Varies by state.\n• May include notary fees.";
+"stamp_duty_basis_india" = "Stamp Duty & Registration.\n• Range: 3% to 7% of property value (varies by state).\n• Registration Fee: ~1% extra.\n• Women may receive discounted rates in some states.";
+"stamp_duty_basis_indonesia" = "BPHTB (Bea Perolehan Hak atas Tanah dan Bangunan).\n• Formula: (Property Value - NPOPTKP) * 5%.\n• NPOPTKP: Tax-free threshold varies by city (typically Rp 60,000,000).\n• Mandatory for all property transfers.";
+"stamp_duty_basis_uk" = "SDLT (Stamp Duty Land Tax).\n• 0% on first £250,000.\n• 5% on £250,001 - £925,000.\n• 10% on £925,001 - £1.5M.\n• 12% above £1.5M.\n• First-time buyers: 0% up to £425,000 for homes under £625k.";
+"stamp_duty_basis_australia" = "State-based Transfer Duty (Stamp Duty).\n• Range: Approx 1.25% to 5.5% (tiered by value).\n• NSW Example: $800k full exemption (0%) for first-home buyers.\n• Varies by state (VIC, QLD, WA have different caps).";
+"stamp_duty_basis_germany" = "Grunderwerbsteuer (Property Transfer Tax).\n• Rate: 3.5% to 6.5% (varies by Bundesland).\n• Bavaria & Saxony: 3.5%. Berlin & Hesse: 6%.\n• App uses 5% average. Enter custom rate for your state.";
+"stamp_duty_basis_france" = "Droits de Mutation (À Titre Onéreux).\n• Rate: ≈5.806% for existing properties.\n• Includes département, state, and commune tax.\n• New builds: TVA (20%) replaces transfer tax.";
+
+/* Tax Calculation Types */
+"percentage" = "Percentage (%)";
+"amount_per_unit" = "Amount per Unit";
+"flat_fee" = "Flat Fee";
+
+/* Stamp Duty Example Text */
+"example_florida_tax" = "Example: For Florida, enter %@ in 'Tax Amount' and %@ in 'Per Unit Value'.";
+"calculating_as_prefix" = "Calculating as";
+"for_every" = "for every";
+"property_value" = "property value";
+
+/* Formula/Calculation Logic */
+"calculation_logic" = "Calculation Logic";
+"formula_tax_bands" = "Calculated based on state/national tax bands.";
+
+/* Calculator Formulas */
+"formula_emi" = "M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1 ]";
+"formula_auto" = "Principal = (Price + Tax + Fees) - Down Payment - Trade-in";
+"formula_home" = "Total = Principal + Interest + Tax + Insurance";
+"formula_student" = "Amortization including any capitalized interest.";
+"formula_eligibility" = "(Gross Income * 0.28) - Existing Monthly Debts";
+"formula_reverse" = "PV = PMT * [(1 - (1 + i)^-n) / i]";
+"formula_comparison" = "Comparison of two standard amortization results.";
+
+/* Ads & Coins */
+"watch_ad_unlock" = "Watch a short video to unlock";
+"earn_coins" = "Earn %d Coins";
+"spend_coins" = "Spend %d Coins";
+"coin_balance" = "Coins";
+"not_enough_coins" = "Not Enough Coins";
+"earn_more_coins" = "Earn More Coins";
+"earn_coins_button" = "Watch Ad to Earn Coins";
+"ad_label" = "Ad";
+"full_schedule_locked" = "Watch a short video to view all %d months";
+"full_schedule_unlock" = "View full amortization schedule";
+"download_report" = "Download Report";
+"free_preview" = "Showing first 60 months";
+"starting_bonus" = "Welcome! You received %d free coins";
+"watch_ad_for_coins" = "Watch a short video to earn coins and download your report.";
+"cancel" = "Cancel";
+"your_coins" = "Your Coins";
+"coin_pricing" = "What Coins Can Buy";
+"pdf_report" = "PDF Report";
+"csv_report" = "CSV / Excel Report";
+"coin_info_text" = "Coins are earned by watching short video ads. They can be used to download detailed loan reports.";
+"coin_wallet" = "Coin Wallet";
+
+/* Appearance */
+"appearance" = "Appearance";
+"appearance_system" = "System";
+"appearance_light" = "Light";
+"appearance_dark" = "Dark";
+
+/* Feature Tour */
+"tour_calculators_title" = "All-in-One Calculators";
+"tour_calculators_subtitle" = "EMI, Home, Auto, Student loans and more — all with country-specific rules built in.";
+"tour_analysis_title" = "Detailed Analysis";
+"tour_analysis_subtitle" = "Get beautiful charts, amortization schedules, and export your results as PDF or CSV.";
+"tour_coins_title" = "Earn & Download";
+"tour_coins_subtitle" = "Watch a short video to earn coins, then use them to download detailed loan reports.";
+"skip" = "Skip";
+"next" = "Next";
+"get_started" = "Get Started";
+
+/* Authentication */
+"account" = "Account";
+"sign_in" = "Sign In";
+"sign_up" = "Sign Up";
+"sign_out" = "Sign Out";
+"sign_in_apple" = "Sign in with Apple";
+"sign_in_google" = "Sign in with Google";
+"sign_in_email" = "Sign in with Email";
+"sign_up_apple" = "Sign up with Apple";
+"sign_up_google" = "Sign up with Google";
+"sign_up_email" = "Sign up with Email";
+"sign_in_subtitle" = "Sync your data across devices and unlock cloud features.";
+"sign_in_benefits" = "Sync coins & calculations across devices";
+"continue_as_guest" = "Continue as Guest";
+"create_account" = "Create Account";
+"create_account_subtitle" = "Sign up to save your calculations and sync across devices.";
+"welcome_back" = "Welcome Back";
+"email_placeholder" = "Email address";
+"password_placeholder" = "Password (min 6 characters)";
+"already_have_account" = "Already have an account? Sign In";
+"already_have_account_short" = "Already have an account? Sign In";
+"dont_have_account" = "Don't have an account? Sign Up";
+"dont_have_account_short" = "Don't have an account? Sign Up";
+"forgot_password" = "Forgot Password?";
+"reset_password" = "Reset Password";
+"send_reset_link" = "Send Reset Link";
+"check_email" = "Check Your Email";
+"reset_link_sent" = "A password reset link has been sent to your email.";
+"profile" = "Profile";
+"account_stats" = "Account Stats";
+"calculations_made" = "Calculations Made";
+"delete_account" = "Delete Account";
+"delete_account_confirm" = "Are you sure? This action cannot be undone. All your data will be permanently deleted.";
+"sign_out_confirm" = "Are you sure you want to sign out?";
+
+/* Auth Errors */
+"error_invalid_credentials" = "The email or password you entered is incorrect.";
+"error_email_in_use" = "This email is already registered. Try signing in.";
+"error_weak_password" = "Password is too weak. Please use at least 6 characters.";
+"error_rate_limit" = "Too many attempts. Please try again later.";
+"error_network" = "Network error. Please check your connection.";
+
+/* ResultsView – Previously Hardcoded Strings */
+"gross_monthly_income" = "Gross Monthly Income";
+"max_emi_allowed" = "Max Monthly EMI Allowed (28%)";
+"existing_monthly_debts" = "Existing Monthly Debts";
+"net_monthly_for_loan" = "Net Monthly For Loan";
+"tax_breakdown" = "Tax Breakdown";
+"applied_custom_rate" = "Applied Custom Rate";
+"calculation_basis" = "Calculation Basis";
+"vehicle_details" = "Vehicle Details";
+"rv_details" = "RV Details";
+"student_loan_details" = "Student Loan Details";
+"savings_achievement" = "Savings Achievement";
+"total_saved_label" = "Total Saved:";
+"time_saved_label" = "Time Saved:";
+"vehicle_price" = "Vehicle Price";
+"tuition_amount" = "Tuition Amount";
+"estimated_stamp_duty" = "Estimated Stamp Duty";
+"generated_by_app" = "Generated by LoanPro 2025";
+"eligibility_analysis_title" = "Eligibility Analysis";
+
+/* Enhanced Charts */
+"starting_balance" = "Starting Balance";
+"chart_breakdown" = "Breakdown";
+"chart_trend" = "Trend";
+"chart_balance" = "Balance";
+
+/* Extra Payment Simulator */
+"extra_payment_simulator" = "Extra Payment Simulator";
+"try_extra_payment" = "See how extra payments accelerate your payoff";
+"new_payoff_date" = "New Payoff Date";
+"simulator_hint" = "Drag the slider to simulate extra monthly payments";
+
+/* Rent vs Buy Calculator */
+"rent_vs_buy" = "Rent vs. Buy";
+"monthly_rent" = "Monthly Rent";
+"annual_rent_increase" = "Annual Rent Increase";
+"home_appreciation" = "Home Appreciation";
+"closing_costs" = "Closing Costs";
+"total_rent_cost" = "Total Cost of Renting";
+"total_buy_cost" = "Total Cost of Buying";
+"break_even_year" = "Break-Even Year";
+"equity_built" = "Equity Built";
+"renting" = "Renting";
+"buying" = "Buying";
+"cumulative_cost" = "Cumulative Cost";
+"rent_vs_buy_verdict" = "Verdict";
+"better_to_buy" = "Buying is cheaper after year %d";
+"better_to_rent" = "Renting is cheaper for the full term";
+"desc_rent_vs_buy_guidance" = "Compare the total costs of renting vs buying a home over time.";
+
+/* Debt Payoff Planner */
+"debt_payoff" = "Debt Payoff Planner";
+"snowball_method" = "Snowball";
+"avalanche_method" = "Avalanche";
+"add_debt" = "Add Debt";
+"remove_debt" = "Remove";
+"debt_name" = "Debt Name";
+"debt_balance" = "Balance";
+"minimum_payment" = "Min. Payment";
+"extra_budget" = "Extra Monthly Budget";
+"debt_free_date" = "Debt-Free Date";
+"interest_saved_total" = "Total Interest Saved";
+"total_months_to_payoff" = "Months to Payoff";
+"strategy_comparison" = "Strategy Comparison";
+"desc_debt_payoff_guidance" = "Plan how to pay off multiple debts using the Snowball or Avalanche method.";
+
+/* Smart Tips */
+"smart_tips" = "Smart Tips";
+"tip_shorter_term" = "Switching to a %d-year term could save you %@ in total interest.";
+"tip_add_extra" = "Adding just %@/month extra could save you %@ in interest and pay off %d months sooner.";
+"tip_high_interest" = "Your interest rate (%.1f%%) is above average. Consider refinancing if rates drop.";
+"tip_reduce_dti" = "Your debt-to-income ratio is high. Reducing monthly debts would increase your borrowing power.";
+"tip_long_term" = "A 30-year term costs significantly more in interest than a 15-year term.";
+"tip_no_extra_payment" = "You're not making extra payments. Even a small amount can save thousands.";

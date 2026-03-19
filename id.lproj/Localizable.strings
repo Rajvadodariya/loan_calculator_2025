@@ -1,0 +1,351 @@
+"welcome" = "Selamat Datang";
+"select_country" = "Pilih Negara Anda";
+"select_country_subtitle" = "Untuk memberikan perkiraan yang akurat";
+"app_language" = "Bahasa Aplikasi";
+"continue" = "Lanjutkan";
+"settings" = "Pengaturan";
+"analysis" = "Analisis";
+"home" = "Beranda";
+
+/* Calculator Types */
+"emi_calculator" = "Kalkulator EMI";
+"auto_loan" = "Mobil / Kendaraan";
+"home_loan" = "Rumah / KPR";
+"personal_loan" = "Pinjaman Pribadi";
+"student_loan" = "Pinjaman Pendidikan";
+"fha_loan" = "Pinjaman FHA (USA)";
+"eligibility" = "Kapasitas Pinjaman";
+"stamp_duty" = "Bea Meterai";
+"reverse_calc" = "Pembayaran Terbalik";
+"comparison" = "Perbandingan Pinjaman";
+"rv_loan" = "Pinjaman RV";
+
+/* Input Fields */
+"loan_amount" = "Jumlah Pinjaman";
+"interest_rate" = "Suku Bunga";
+"loan_term" = "Jangka Waktu";
+"down_payment" = "Uang Muka";
+"trade_in_value" = "Nilai Tukar Tambah";
+"sales_tax" = "Pajak Penjualan";
+"registration_fees" = "Biaya Registrasi";
+"property_tax" = "Pajak Properti";
+"home_insurance" = "Asuransi Rumah";
+"monthly_payment" = "Pembayaran Bulanan";
+"years" = "Tahun";
+"months" = "Bulan";
+
+/* Results */
+"calculate" = "Hitung";
+"monthly_emi" = "EMI Bulanan";
+"total_interest" = "Total Bunga";
+"total_payment" = "Total Pembayaran";
+"payoff_date" = "Tanggal Lunas";
+"interest_saved" = "Bunga Dihemat";
+"time_saved" = "Waktu Dihemat";
+"principal" = "Pokok";
+
+/* How to Use */
+"how_to_use" = "Cara Penggunaan";
+"understanding_loan_title" = "Memahami Pinjaman Anda";
+"understanding_loan_para" = "Panduan ini membantu Anda memahami input yang diperlukan untuk perhitungan pinjaman yang akurat.";
+"advanced_tools_title" = "Alat Canggih";
+"country_rules_title" = "Aturan Khusus Negara";
+"where_to_find_title" = "Tempat Menemukan Informasi";
+"general_inputs" = "Input Umum";
+
+/* Guidance / Info Page */
+"guidance_for" = "Panduan untuk %@";
+"key_inputs" = "Input Kunci";
+"expert_tips" = "Tips Pakar";
+"calculation_logic" = "Logika Perhitungan";
+"where_to_find_label" = "Cari di: %@";
+"done" = "Selesai";
+
+/* Descriptions */
+"desc_simple_guidance" = "Kalkulator umum untuk pinjaman pribadi atau tanpa agunan.";
+"desc_auto_guidance" = "Pembiayaan kendaraan termasuk tukar tambah dan pajak.";
+"desc_rv_guidance" = "Pembiayaan untuk kendaraan rekreasi.";
+"desc_home_guidance" = "Kalkulator KPR yang komprehensif.";
+"desc_fha_guidance" = "KPR FHA khusus AS.";
+
+/* Rules */
+"rules_header" = "Aturan khusus untuk %@";
+"tip_total_interest_comp" = "Fokus pada total bunga yang dibayarkan.";
+
+/* Detailed Sources and Rules */
+"source_loan_amount_usa" = "Ditemukan pada Estimasi Pinjaman.";
+"source_loan_amount_india" = "Ditemukan pada Surat Persetujuan Bank.";
+"source_annual_income_usa" = "Cek laporan pajak Anda.";
+"source_annual_income_india" = "Cek Form 16 Anda.";
+"source_financial_statements" = "Cek laporan keuangan Anda.";
+"source_lender_rates" = "Halaman bunga pemberi pinjaman.";
+"source_repayment_schedule" = "Durasi jadwal pembayaran.";
+"source_insurance_quote" = "Kutipan asuransi.";
+"source_budget_analysis" = "Analisis anggaran rumah tangga.";
+"source_loan_offers" = "Penawaran pinjaman berbeda.";
+
+"rule_usa_fha" = "Pinjaman FHA memerlukan MIP.";
+"rule_usa_pmi" = "Pinjaman mungkin memerlukan PMI.";
+"rule_india_gst" = "GST berlaku pada biaya layanan.";
+"rule_uk_sdlt" = "Ambang batas SDLT bervariasi.";
+"rule_uk_erc" = "Biaya pelunasan awal umum terjadi.";
+"rule_aus_daily_int" = "Bunga dihitung harian.";
+"rule_aus_lmi" = "LMI berlaku jika deposit <20%.";
+"rule_dti_cap" = "Pemberi pinjaman membatasi biaya hingga 30%.";
+"rule_progressive_rates" = "Suku bunga bersifat progresif.";
+
+"tip_student_interest" = "Bayar bunga saat kuliah menghemat ribuan.";
+"tip_student_forgiveness" = "Cek program pemutihan pinjaman.";
+"tip_dti_reduction" = "Mengurangi hutang tingkatkan kapasitas.";
+"tip_concessions" = "Cek kemungkinan konsesi.";
+"tip_lower_payment_cost" = "Cicilan rendah bisa lebih mahal totalnya.";
+
+/* Settings Section Headers */
+"support_feedback" = "Dukungan & Umpan Balik";
+"legal" = "Hukum";
+"app_info" = "Info Aplikasi";
+"get_support" = "Dapatkan Dukungan";
+"share_app" = "Bagikan Aplikasi";
+"rate_app" = "Beri Rating";
+"privacy_policy" = "Kebijakan Privasi";
+"terms_of_service" = "Ketentuan Layanan";
+"version" = "Versi";
+"country" = "Negara";
+"language" = "Bahasa";
+"preferences" = "Preferensi";
+
+/* Share Menu */
+"share_amortization" = "Bagikan Amortisasi";
+"share_full_report" = "Bagikan Laporan Lengkap";
+"share_as_image" = "Bagikan sebagai Gambar";
+
+/* Additional Input Fields */
+"extra_payment" = "Pembayaran Tambahan";
+"grace_period" = "Masa Tenggang";
+"annual_income" = "Penghasilan Tahunan";
+"monthly_debts" = "Hutang Bulanan";
+"monthly_budget" = "Anggaran Bulanan";
+"property_value" = "Nilai Properti";
+"hoa_fees" = "Biaya Pengelolaan";
+
+/* Units */
+"monthly" = "Bulanan";
+"yearly" = "Tahunan";
+"bi_weekly" = "Dua Mingguan";
+"month" = "Bulan";
+"year" = "Tahun";
+
+/* Actions & Buttons */
+"view_detailed_report" = "Lihat Laporan Detail";
+
+/* Results */
+"borrowing_power" = "Daya Pinjam";
+"total_tax_fees" = "Total Pajak & Biaya";
+
+/* Sections */
+"loan_summary" = "Ringkasan Pinjaman";
+"amortization_schedule" = "Jadwal Amortisasi";
+"monthly_escrow" = "Escrow Bulanan";
+"payment_breakdown" = "Rincian Pembayaran";
+"show_all" = "Tampilkan Semua";
+"view_more" = "Lihat Lebih Banyak";
+"interest" = "Bunga";
+"balance" = "Saldo";
+
+/* Export */
+"share_as_pdf" = "Bagikan sebagai PDF";
+"share_as_excel" = "Bagikan sebagai Excel";
+
+/* Stamp Duty Calculator */
+"custom_tax_rate" = "Tarif Pajak Kustom";
+"calculation_rule" = "Aturan Perhitungan";
+"tax_rate_percent" = "Tarif Pajak (%)";
+"tax_amount" = "Jumlah Pajak";
+"flat_fee_amount" = "Jumlah Biaya Tetap";
+"per_unit_value" = "Nilai per Unit";
+"calculating_as" = "Menghitung sebagai";
+"for_every" = "untuk setiap";
+
+/* Loan Comparison */
+"loan_option_1" = "Opsi Pinjaman 1";
+"loan_option_2" = "Opsi Pinjaman 2";
+"amount" = "Jumlah";
+"rate_percent" = "Suku Bunga (%)";
+"option_1" = "Opsi 1";
+"option_2" = "Opsi 2";
+"difference_in_total" = "Selisih Total Biaya";
+"total" = "Total";
+
+/* Extra Payment */
+"see_interest_save" = "Lihat berapa banyak bunga yang Anda hemat!";
+
+/* Payment Frequency */
+"frequency" = "Frekuensi";
+"share" = "Bagikan sebagai Teks";
+
+/* Export & PDF/CSV Labels */
+"generated_by" = "Dibuat oleh";
+"loan_analysis_report" = "Laporan Analisis Pinjaman";
+"summary" = "Ringkasan";
+"type" = "Tipe";
+"down_payment" = "Uang Muka";
+"trade_in_value" = "Nilai Tukar Tambah";
+"sales_tax" = "Pajak Penjualan";
+"registration_fees" = "Biaya Registrasi";
+"property_tax_monthly" = "Pajak Properti (Bulanan)";
+"home_insurance_monthly" = "Asuransi Rumah (Bulanan)";
+"hoa_fees_monthly" = "Biaya Pengelolaan (Bulanan)";
+"eligibility_analysis" = "Analisis Kelayakan";
+"monthly_income" = "Pendapatan Bulanan";
+"max_affordable_emi" = "EMI Maksimal Terjangkau";
+"report" = "Laporan";
+"date" = "Tanggal";
+"term" = "Jangka Waktu";
+"rate" = "Suku Bunga";
+"tax" = "Pajak";
+"per_month" = "/bln";
+"months_short" = "bulan";
+"years_short" = "tahun";
+
+/* Tax Calculation Types */
+"percentage" = "Persentase (%)";
+"amount_per_unit" = "Jumlah per Unit";
+"flat_fee" = "Biaya Tetap";
+
+/* Stamp Duty Basis Descriptions */
+"stamp_duty_basis_usa" = "Pajak Pengalihan Properti (bervariasi menurut negara).\n• AS bervariasi menurut negara bagian.\n• Biasanya 0.01% hingga 4%.\n• Beberapa negara bagian tidak memiliki pajak pengalihan.";
+"stamp_duty_basis_canada" = "Pajak Pengalihan Tanah.\n• Federal: Tidak ada pajak federal.\n• Provinsi: Sangat bervariasi.\n• Pembeli pertama dapat menerima potongan.";
+"stamp_duty_basis_mexico" = "Impuesto sobre Adquisición de Inmuebles.\n• Biasanya 2% hingga 5%.\n• Bervariasi menurut negara bagian.\n• Dapat mencakup biaya notaris.";
+"stamp_duty_basis_india" = "Bea Materai dan Pendaftaran.\n• Kisaran: 3% hingga 7% (bervariasi menurut negara bagian).\n• Biaya Pendaftaran: ~1% tambahan.\n• Wanita dapat menerima tarif diskon.";
+"stamp_duty_basis_indonesia" = "BPHTB (Bea Perolehan Hak atas Tanah dan Bangunan).\n• Rumus: (Nilai Properti - NPOPTKP) * 5%.\n• NPOPTKP: Ambang bebas pajak.\n• Wajib untuk semua pengalihan properti.";
+"stamp_duty_basis_uk" = "SDLT (Pajak Bea Materai).\n• 0% pada £250,000 pertama.\n• 5% pada £250,001 - £925,000.\n• 10% pada £925,001 - £1.5M.\n• 12% di atas £1.5M.";
+"stamp_duty_basis_australia" = "Bea Pengalihan Negara Bagian.\n• Kisaran: Sekitar 1.25% hingga 5.5%.\n• NSW: $800k pembebasan untuk pembeli pertama.\n• Bervariasi menurut negara bagian.";
+"stamp_duty_basis_germany" = "Grunderwerbsteuer (Pajak Pengalihan Properti).
+• Tarif: 3,5% hingga 6,5% (bervariasi per negara bagian).
+• Bayern dan Saxony: 3,5%. Berlin dan Hesse: 6%.
+• App menggunakan rata-rata 5%.";
+"stamp_duty_basis_france" = "Droits de Mutation (À Titre Onéreux).
+• Tarif: ≈5,806% untuk properti yang ada.
+• Termasuk pajak departemen, negara, dan komune.
+• Properti baru: TVA (20%) menggantikan pajak pengalihan.";
+
+/* Stamp Duty Example Text */
+"example_florida_tax" = "Contoh: Untuk Florida, masukkan %@ di 'Jumlah Pajak' dan %@ di 'Nilai per Unit'.";
+"calculating_as_prefix" = "Menghitung sebagai";
+"property_value" = "nilai properti";
+
+/* Formula/Calculation Logic */
+"calculation_logic" = "Logika Perhitungan";
+"formula_tax_bands" = "Dihitung berdasarkan pita pajak negara bagian/nasional.";
+
+/* Calculator Formulas */
+"formula_emi" = "M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1 ]";
+"formula_auto" = "Pokok = (Harga + Pajak + Biaya) - Uang Muka - Tukar Tambah";
+"formula_home" = "Total = Pokok + Bunga + Pajak + Asuransi";
+"formula_student" = "Amortisasi termasuk bunga yang dikapitalisasi.";
+"formula_eligibility" = "(Penghasilan Kotor * 0,28) - Hutang Bulanan yang Ada";
+"formula_reverse" = "NP = PMT * [(1 - (1 + i)^-n) / i]";
+"formula_comparison" = "Perbandingan dua hasil amortisasi standar.";
+
+/* Ads & Coins */
+"watch_ad_unlock" = "Tonton video singkat untuk membuka";
+"earn_coins" = "Dapatkan %d koin";
+"spend_coins" = "Gunakan %d koin";
+"coin_balance" = "Koin";
+"not_enough_coins" = "Koin tidak cukup";
+"earn_more_coins" = "Dapatkan lebih banyak koin";
+"earn_coins_button" = "Tonton iklan untuk mendapatkan koin";
+"ad_label" = "Iklan";
+"full_schedule_locked" = "Tonton video singkat untuk melihat semua %d bulan";
+"full_schedule_unlock" = "Lihat jadwal amortisasi lengkap";
+"download_report" = "Unduh laporan";
+"free_preview" = "Menampilkan 60 bulan pertama";
+"starting_bonus" = "Selamat datang! Anda mendapat %d koin gratis";
+"watch_ad_for_coins" = "Tonton video singkat untuk mendapatkan koin dan mengunduh laporan Anda.";
+"cancel" = "Batal";
+"your_coins" = "Koin Anda";
+"coin_pricing" = "Yang bisa dibeli dengan koin";
+"pdf_report" = "Laporan PDF";
+"csv_report" = "Laporan CSV / Excel";
+"coin_info_text" = "Koin diperoleh dengan menonton video pendek. Dapat digunakan untuk mengunduh laporan terperinci.";
+"coin_wallet" = "Dompet Koin";
+
+/* Appearance */
+"appearance" = "Tampilan";
+"appearance_system" = "Sistem";
+"appearance_light" = "Terang";
+"appearance_dark" = "Gelap";
+
+/* Feature Tour */
+"tour_calculators_title" = "Kalkulator Lengkap";
+"tour_calculators_subtitle" = "EMI, Rumah, Kendaraan, Pelajar dan lainnya — dengan aturan khusus setiap negara.";
+"tour_analysis_title" = "Analisis Terperinci";
+"tour_analysis_subtitle" = "Grafik, jadwal amortisasi, dan ekspor hasil sebagai PDF atau CSV.";
+"tour_coins_title" = "Dapatkan & Unduh";
+"tour_coins_subtitle" = "Tonton video singkat untuk koin dan unduh laporan terperinci.";
+"skip" = "Lewati";
+"next" = "Berikutnya";
+"get_started" = "Mulai";
+
+/* Authentication */
+"account" = "Akun";
+"sign_in" = "Masuk";
+"sign_up" = "Daftar";
+"sign_out" = "Keluar";
+"sign_in_apple" = "Masuk dengan Apple";
+"sign_in_google" = "Masuk dengan Google";
+"sign_in_email" = "Masuk dengan Email";
+"sign_up_apple" = "Daftar dengan Apple";
+"sign_up_google" = "Daftar dengan Google";
+"sign_up_email" = "Daftar dengan Email";
+"sign_in_subtitle" = "Sinkronkan data Anda antar perangkat dan buka fitur cloud.";
+"sign_in_benefits" = "Sinkronkan koin & perhitungan antar perangkat";
+"continue_as_guest" = "Lanjutkan sebagai Tamu";
+"create_account" = "Buat Akun";
+"create_account_subtitle" = "Daftar untuk menyimpan perhitungan dan sinkronkan antar perangkat.";
+"welcome_back" = "Selamat Datang Kembali";
+"email_placeholder" = "Alamat email";
+"password_placeholder" = "Kata sandi (min 6 karakter)";
+"already_have_account" = "Sudah punya akun? Masuk";
+"already_have_account_short" = "Sudah punya akun? Masuk";
+"dont_have_account" = "Belum punya akun? Daftar";
+"dont_have_account_short" = "Belum punya akun? Daftar";
+"forgot_password" = "Lupa Kata Sandi?";
+"reset_password" = "Reset Kata Sandi";
+"send_reset_link" = "Kirim Tautan";
+"check_email" = "Periksa Email Anda";
+"reset_link_sent" = "Tautan reset kata sandi telah dikirim ke email Anda.";
+"profile" = "Profil";
+"account_stats" = "Statistik Akun";
+"calculations_made" = "Perhitungan Dibuat";
+"delete_account" = "Hapus Akun";
+"delete_account_confirm" = "Apakah Anda yakin? Tindakan ini tidak dapat dibatalkan. Semua data Anda akan dihapus secara permanen.";
+"sign_out_confirm" = "Apakah Anda yakin ingin keluar?";
+
+/* Auth Errors */
+"error_invalid_credentials" = "Email atau kata sandi yang Anda masukkan salah.";
+"error_email_in_use" = "Email ini sudah terdaftar. Coba masuk.";
+"error_weak_password" = "Kata sandi terlalu lemah. Harap gunakan minimal 6 karakter.";
+"error_rate_limit" = "Terlalu banyak percobaan. Harap coba lagi nanti.";
+"error_network" = "Kesalahan jaringan. Harap periksa koneksi Anda.";
+
+/* ResultsView – Previously Hardcoded Strings */
+"gross_monthly_income" = "Pendapatan Bulanan Kotor";
+"max_emi_allowed" = "EMI Bulanan Maks Diizinkan (28%)";
+"existing_monthly_debts" = "Hutang Bulanan yang Ada";
+"net_monthly_for_loan" = "Bersih Bulanan untuk Pinjaman";
+"tax_breakdown" = "Rincian Pajak";
+"applied_custom_rate" = "Tarif Kustom Diterapkan";
+"calculation_basis" = "Dasar Perhitungan";
+"vehicle_details" = "Detail Kendaraan";
+"rv_details" = "Detail RV";
+"student_loan_details" = "Detail Pinjaman Pendidikan";
+"savings_achievement" = "Pencapaian Tabungan";
+"total_saved_label" = "Total Dihemat:";
+"time_saved_label" = "Waktu Dihemat:";
+"vehicle_price" = "Harga Kendaraan";
+"tuition_amount" = "Jumlah Biaya Kuliah";
+"estimated_stamp_duty" = "Bea Meterai Perkiraan";
+"generated_by_app" = "Dibuat oleh LoanPro 2025";
+"eligibility_analysis_title" = "Analisis Kelayakan";
+

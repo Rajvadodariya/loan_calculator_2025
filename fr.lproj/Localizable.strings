@@ -1,0 +1,350 @@
+"welcome" = "Bienvenue";
+"select_country" = "Sélectionnez votre pays";
+"select_country_subtitle" = "Pour des estimations précises";
+"app_language" = "Langue de l'application";
+"continue" = "Continuer";
+"settings" = "Paramètres";
+"analysis" = "Analyse";
+"home" = "Accueil";
+
+/* Calculator Types */
+"emi_calculator" = "Calculatrice EMI";
+"auto_loan" = "Auto / Voiture";
+"home_loan" = "Maison / Hypothèque";
+"personal_loan" = "Prêt personnel";
+"student_loan" = "Prêt étudiant";
+"fha_loan" = "Prêt FHA (USA)";
+"eligibility" = "Capacité d'emprunt";
+"stamp_duty" = "Droit de timbre / Taxe";
+"reverse_calc" = "Calcul inverse";
+"comparison" = "Comparaison de prêts";
+"rv_loan" = "Prêt RV";
+
+/* Input Fields */
+"loan_amount" = "Montant du prêt";
+"interest_rate" = "Taux d'intérêt";
+"loan_term" = "Durée du prêt";
+"down_payment" = "Apport personnel";
+"trade_in_value" = "Valeur de reprise";
+"sales_tax" = "Taxe de vente";
+"registration_fees" = "Frais d'immatriculation";
+"property_tax" = "Taxe foncière";
+"home_insurance" = "Assurance habitation";
+"monthly_payment" = "Paiement mensuel";
+"years" = "Années";
+"months" = "Mois";
+
+/* Results */
+"calculate" = "Calculer";
+"monthly_emi" = "EMI mensuelle";
+"total_interest" = "Intérêt total";
+"total_payment" = "Paiement total";
+"payoff_date" = "Date de fin";
+"interest_saved" = "Intérêt économisé";
+"time_saved" = "Temps économisé";
+"principal" = "Principal";
+
+/* Guidance / Info Page */
+"guidance_for" = "Guide pour %@";
+"key_inputs" = "Entrées clés";
+"expert_tips" = "Conseils d'experts";
+"calculation_logic" = "Logique de calcul";
+"where_to_find_label" = "Où trouver : %@";
+"done" = "Terminé";
+
+/* Descriptions */
+"desc_simple_guidance" = "Calculateur pour prêts personnels.";
+"desc_auto_guidance" = "Financement auto avec reprise et taxes.";
+"desc_rv_guidance" = "Financement pour véhicules récréatifs.";
+"desc_home_guidance" = "Calculateur d'hypothèque complet.";
+"desc_fha_guidance" = "Prêt FHA spécifique aux USA.";
+"desc_student_guidance" = "Prêts pour l'éducation.";
+
+/* Rules */
+"rules_header" = "Règles spécifiques pour %@";
+"tip_total_interest_comp" = "Concentrez-vous sur l'intérêt total.";
+
+/* Detailed Sources and Rules */
+"source_loan_amount_usa" = "Trouvé sur votre estimation de prêt.";
+"source_loan_amount_india" = "Trouvé sur votre lettre de sanction.";
+"source_annual_income_usa" = "Consultez votre dernière déclaration.";
+"source_annual_income_india" = "Consultez votre Formulaire 16.";
+"source_property_tax_usa" = "Site web de l'assesseur fiscal local.";
+"source_property_tax_india" = "Évaluation du marché.";
+"source_sales_tax_usa" = "Site web du DMV local.";
+"source_sales_tax_india" = "Vérifiez les taux de GST actuels.";
+"source_property_value_usa" = "Prix affiché ou expertise.";
+"source_property_value_india" = "Évaluation du marché.";
+"source_financial_statements" = "Consultez vos relevés financiers.";
+"source_lender_rates" = "Page des taux du prêteur.";
+"source_repayment_schedule" = "Durée du plan de remboursement.";
+"source_dmv" = "Ministère des transports.";
+"source_student_finance" = "Portail de financement étudiant.";
+"source_insurance_quote" = "Devis de l'assureur.";
+"source_budget_analysis" = "Analyse de votre budget.";
+"source_loan_offers" = "Différentes offres de prêt.";
+
+"rule_usa_fha" = "Les prêts FHA nécessitent une MIP.";
+"rule_usa_pmi" = "Les prêts conventionnels nécessitent souvent une PMI.";
+"rule_india_gst" = "La GST (18%) s'applique souvent aux frais.";
+"rule_uk_sdlt" = "Les seuils de SDLT varient.";
+"rule_uk_erc" = "Les frais de remboursement anticipé sont fréquents.";
+"rule_aus_daily_int" = "L'intérêt est calculé quotidiennement.";
+"rule_aus_lmi" = "La LMI s'applique si l'apport est <20%.";
+"rule_dti_cap" = "Les prêteurs plafonnent les coûts à 30%.";
+"rule_progressive_rates" = "Les taux sont progressifs.";
+
+"tip_student_interest" = "Payer les intérêts tôt permet d'économiser.";
+"tip_student_forgiveness" = "Vérifiez les programmes de remise.";
+"tip_dti_reduction" = "Réduire la dette augmente la capacité.";
+"tip_concessions" = "Vérifiez les concessions.";
+"tip_lower_payment_cost" = "Des mensualités basses coûtent plus cher.";
+
+/* Settings Section Headers */
+"support_feedback" = "Assistance et Avis";
+"legal" = "Mentions Légales";
+"app_info" = "Infos de l'App";
+"get_support" = "Obtenir de l'aide";
+"share_app" = "Partager l'App";
+"rate_app" = "Noter l'App";
+"privacy_policy" = "Politique de Confidentialité";
+"terms_of_service" = "Conditions d'Utilisation";
+"version" = "Version";
+"country" = "Pays";
+"language" = "Langue";
+"preferences" = "Préférences";
+
+/* Share Menu */
+"share_amortization" = "Partager l'amortissement";
+"share_full_report" = "Partager le rapport complet";
+"share_as_image" = "Partager comme image";
+
+/* Additional Input Fields */
+"extra_payment" = "Paiement Supplémentaire";
+"grace_period" = "Période de Grâce";
+"annual_income" = "Revenu Annuel";
+"monthly_debts" = "Dettes Mensuelles";
+"monthly_budget" = "Budget Mensuel";
+"property_value" = "Valeur du Bien";
+"hoa_fees" = "Frais de Copropriété";
+
+/* Units */
+"monthly" = "Mensuel";
+"yearly" = "Annuel";
+"bi_weekly" = "Bimensuel";
+"month" = "Mois";
+"year" = "Année";
+
+/* Actions & Buttons */
+"view_detailed_report" = "Voir le Rapport Détaillé";
+
+/* Results */
+"borrowing_power" = "Capacité d'Emprunt";
+"total_tax_fees" = "Total Taxes et Frais";
+
+/* Sections */
+"loan_summary" = "Résumé du Prêt";
+"amortization_schedule" = "Tableau d'Amortissement";
+"monthly_escrow" = "Provision Mensuelle";
+"payment_breakdown" = "Détail des Paiements";
+"show_all" = "Tout Afficher";
+"view_more" = "Voir Plus";
+"interest" = "Intérêt";
+"balance" = "Solde";
+
+/* Export */
+"share_as_pdf" = "Partager en PDF";
+"share_as_excel" = "Partager en Excel";
+
+/* Stamp Duty Calculator */
+"custom_tax_rate" = "Taux de Taxe Personnalisé";
+"calculation_rule" = "Règle de Calcul";
+"tax_rate_percent" = "Taux de Taxe (%)";
+"tax_amount" = "Montant de la Taxe";
+"flat_fee_amount" = "Montant Forfaitaire";
+"per_unit_value" = "Valeur par Unité";
+"calculating_as" = "Calcul en tant que";
+"for_every" = "pour chaque";
+
+/* Loan Comparison */
+"loan_option_1" = "Option de Prêt 1";
+"loan_option_2" = "Option de Prêt 2";
+"amount" = "Montant";
+"rate_percent" = "Taux (%)";
+"option_1" = "Option 1";
+"option_2" = "Option 2";
+"difference_in_total" = "Différence du Coût Total";
+"total" = "Total";
+
+/* Extra Payment */
+"see_interest_save" = "Voyez combien d'intérêts vous économisez!";
+
+/* Payment Frequency */
+"frequency" = "Fréquence";
+"share" = "Partager en texte";
+
+/* Export & PDF/CSV Labels */
+"generated_by" = "Généré par";
+"loan_analysis_report" = "Rapport d'Analyse de Prêt";
+"summary" = "Résumé";
+"type" = "Type";
+"down_payment" = "Acompte";
+"trade_in_value" = "Valeur de Reprise";
+"sales_tax" = "Taxe de Vente";
+"registration_fees" = "Frais d'Immatriculation";
+"property_tax_monthly" = "Taxe Foncière (Mensuelle)";
+"home_insurance_monthly" = "Assurance Habitation (Mensuelle)";
+"hoa_fees_monthly" = "Frais de Copropriété (Mensuelle)";
+"eligibility_analysis" = "Analyse d'Éligibilité";
+"monthly_income" = "Revenu Mensuel";
+"max_affordable_emi" = "EMI Maximum Abordable";
+"report" = "Rapport";
+"date" = "Date";
+"term" = "Durée";
+"rate" = "Taux";
+"tax" = "Taxe";
+"per_month" = "/mois";
+"months_short" = "mois";
+"years_short" = "ans";
+
+/* Tax Calculation Types */
+"percentage" = "Pourcentage (%)";
+"amount_per_unit" = "Montant par Unité";
+"flat_fee" = "Frais Forfaitaires";
+
+/* Stamp Duty Basis Descriptions */
+"stamp_duty_basis_usa" = "Taxe de Transfert de Propriété (varie selon le pays).\n• USA varie selon l'État.\n• Typiquement 0.01% à 4%.\n• Certains États n'ont pas de taxe de transfert.";
+"stamp_duty_basis_canada" = "Taxe de Mutation Foncière.\n• Fédéral: Pas de taxe fédérale.\n• Provincial: Varie considérablement.\n• Les premiers acheteurs peuvent recevoir des rabais.";
+"stamp_duty_basis_mexico" = "Impuesto sobre Adquisición de Inmuebles.\n• Typiquement 2% à 5%.\n• Varie selon l'État.\n• Peut inclure des frais de notaire.";
+"stamp_duty_basis_india" = "Droit de Timbre et Enregistrement.\n• Plage: 3% à 7% (varie selon l'État).\n• Frais d'Enregistrement: ~1% supplémentaire.\n• Les femmes peuvent recevoir des tarifs réduits.";
+"stamp_duty_basis_indonesia" = "BPHTB (Taxe de Transfert).\n• Formule: (Valeur de Propriété - NPOPTKP) * 5%.\n• NPOPTKP: Seuil d'exonération fiscale.\n• Obligatoire pour tous les transferts.";
+"stamp_duty_basis_uk" = "SDLT (Taxe de Timbre).\n• 0% sur les premiers £250,000.\n• 5% sur £250,001 - £925,000.\n• 10% sur £925,001 - £1.5M.\n• 12% au-dessus de £1.5M.";
+"stamp_duty_basis_australia" = "Taxe de Transfert d'État.\n• Plage: Env. 1.25% à 5.5%.\n• NSW: $800k exemption pour premiers acheteurs.\n• Varie selon l'État.";
+"stamp_duty_basis_germany" = "Grunderwerbsteuer (Droits de transfert immobilier).
+• Taux : 3,5% à 6,5% (selon le Land).
+• Bavière et Saxe : 3,5%. Berlin et Hesse : 6%.
+• App utilise 5% moyen.";
+"stamp_duty_basis_france" = "Droits de Mutation À Titre Onéreux.
+• Taux : ≈5,806% pour les biens existants.
+• Comprend taxe départementale, étatique et communale.
+• Biens neufs : TVA (20%) remplace les droits de mutation.";
+
+/* Stamp Duty Example Text */
+"example_florida_tax" = "Exemple: Pour la Floride, entrez %@ dans 'Montant de Taxe' et %@ dans 'Valeur par Unité'.";
+"calculating_as_prefix" = "Calcul en tant que";
+"property_value" = "valeur de propriété";
+
+/* Formula/Calculation Logic */
+"calculation_logic" = "Logique de Calcul";
+"formula_tax_bands" = "Calculé sur la base des tranches fiscales étatiques/nationales.";
+
+/* Calculator Formulas */
+"formula_emi" = "M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1 ]";
+"formula_auto" = "Principal = (Prix + Taxe + Frais) - Acompte - Reprise";
+"formula_home" = "Total = Principal + Intérêt + Taxe + Assurance";
+"formula_student" = "Amortissement incluant tout intérêt capitalisé.";
+"formula_eligibility" = "(Revenu Brut * 0,28) - Dettes Mensuelles Existantes";
+"formula_reverse" = "VA = PMT * [(1 - (1 + i)^-n) / i]";
+"formula_comparison" = "Comparaison de deux résultats d'amortissement standard.";
+
+/* Ads & Coins */
+"watch_ad_unlock" = "Regardez une courte vidéo pour débloquer";
+"earn_coins" = "Gagner %d pièces";
+"spend_coins" = "Dépenser %d pièces";
+"coin_balance" = "Pièces";
+"not_enough_coins" = "Pièces insuffisantes";
+"earn_more_coins" = "Gagner plus de pièces";
+"earn_coins_button" = "Regarder une pub pour gagner des pièces";
+"ad_label" = "Pub";
+"full_schedule_locked" = "Regardez une courte vidéo pour voir les %d mois";
+"full_schedule_unlock" = "Voir le tableau d'amortissement complet";
+"download_report" = "Télécharger le rapport";
+"free_preview" = "Affichage des 60 premiers mois";
+"starting_bonus" = "Bienvenue ! Vous avez reçu %d pièces gratuites";
+"watch_ad_for_coins" = "Regardez une courte vidéo pour gagner des pièces et télécharger votre rapport.";
+"cancel" = "Annuler";
+"your_coins" = "Vos pièces";
+"coin_pricing" = "Ce que les pièces peuvent acheter";
+"pdf_report" = "Rapport PDF";
+"csv_report" = "Rapport CSV / Excel";
+"coin_info_text" = "Les pièces sont gagnées en regardant de courtes vidéos. Elles peuvent être utilisées pour télécharger des rapports détaillés.";
+"coin_wallet" = "Portefeuille de pièces";
+
+/* Appearance */
+"appearance" = "Apparence";
+"appearance_system" = "Système";
+"appearance_light" = "Clair";
+"appearance_dark" = "Sombre";
+
+/* Feature Tour */
+"tour_calculators_title" = "Calculatrices Tout-en-Un";
+"tour_calculators_subtitle" = "EMI, Maison, Auto, Étudiant et plus — avec les règles de chaque pays intégrées.";
+"tour_analysis_title" = "Analyse Détaillée";
+"tour_analysis_subtitle" = "Graphiques, tableaux d'amortissement et export en PDF ou CSV.";
+"tour_coins_title" = "Gagnez et Téléchargez";
+"tour_coins_subtitle" = "Regardez une courte vidéo pour gagner des pièces et télécharger des rapports détaillés.";
+"skip" = "Passer";
+"next" = "Suivant";
+"get_started" = "Commencer";
+
+/* Authentication */
+"account" = "Compte";
+"sign_in" = "Se connecter";
+"sign_up" = "S'inscrire";
+"sign_out" = "Se déconnecter";
+"sign_in_apple" = "Se connecter avec Apple";
+"sign_in_google" = "Se connecter avec Google";
+"sign_in_email" = "Se connecter par e-mail";
+"sign_up_apple" = "S'inscrire avec Apple";
+"sign_up_google" = "S'inscrire avec Google";
+"sign_up_email" = "S'inscrire par e-mail";
+"sign_in_subtitle" = "Synchronisez vos données entre appareils et débloquez les fonctionnalités cloud.";
+"sign_in_benefits" = "Synchronisez pièces et calculs entre appareils";
+"continue_as_guest" = "Continuer en tant qu'invité";
+"create_account" = "Créer un compte";
+"create_account_subtitle" = "Inscrivez-vous pour sauvegarder vos calculs et synchroniser entre appareils.";
+"welcome_back" = "Bon retour";
+"email_placeholder" = "Adresse e-mail";
+"password_placeholder" = "Mot de passe (min 6 caractères)";
+"already_have_account" = "Vous avez déjà un compte ? Se connecter";
+"already_have_account_short" = "Déjà un compte ? Se connecter";
+"dont_have_account" = "Pas de compte ? S'inscrire";
+"dont_have_account_short" = "Pas de compte ? S'inscrire";
+"forgot_password" = "Mot de passe oublié ?";
+"reset_password" = "Réinitialiser le mot de passe";
+"send_reset_link" = "Envoyer le lien";
+"check_email" = "Vérifiez votre e-mail";
+"reset_link_sent" = "Un lien de réinitialisation a été envoyé à votre e-mail.";
+"profile" = "Profil";
+"account_stats" = "Statistiques";
+"calculations_made" = "Calculs effectués";
+"delete_account" = "Supprimer le compte";
+"delete_account_confirm" = "Êtes-vous sûr ? Cette action est irréversible. Toutes vos données seront définitivement supprimées.";
+"sign_out_confirm" = "Êtes-vous sûr de vouloir vous déconnecter ?";
+
+/* Auth Errors */
+"error_invalid_credentials" = "L'adresse e-mail ou le mot de passe est incorrect.";
+"error_email_in_use" = "Cet e-mail est déjà enregistré. Essayez de vous connecter.";
+"error_weak_password" = "Mot de passe trop faible. Utilisez au moins 6 caractères.";
+"error_rate_limit" = "Trop de tentatives. Veuillez réessayer plus tard.";
+"error_network" = "Erreur réseau. Veuillez vérifier votre connexion.";
+
+/* ResultsView – Previously Hardcoded Strings */
+"gross_monthly_income" = "Revenu Mensuel Brut";
+"max_emi_allowed" = "EMI Mensuelle Max Autorisée (28%)";
+"existing_monthly_debts" = "Dettes Mensuelles Existantes";
+"net_monthly_for_loan" = "Mensualité Nette pour le Prêt";
+"tax_breakdown" = "Détail des Taxes";
+"applied_custom_rate" = "Taux Personnalisé Appliqué";
+"calculation_basis" = "Base de Calcul";
+"vehicle_details" = "Détails du Véhicule";
+"rv_details" = "Détails du Camping-car";
+"student_loan_details" = "Détails du Prêt Étudiant";
+"savings_achievement" = "Économies Réalisées";
+"total_saved_label" = "Total Économisé :";
+"time_saved_label" = "Temps Économisé :";
+"vehicle_price" = "Prix du Véhicule";
+"tuition_amount" = "Montant des Frais de Scolarité";
+"estimated_stamp_duty" = "Droit de Timbre Estimé";
+"generated_by_app" = "Généré par LoanPro 2025";
+"eligibility_analysis_title" = "Analyse d'Éligibilité";

@@ -1,0 +1,459 @@
+"welcome" = "Willkommen";
+"select_country" = "Wählen Sie Ihr Land";
+"select_country_subtitle" = "Für genaue Steuer- und Regelschätzungen";
+"app_language" = "App-Sprache";
+"continue" = "Weiter";
+"settings" = "Einstellungen";
+"analysis" = "Analyse";
+"home" = "Startseite";
+
+/* Calculator Types */
+"emi_calculator" = "EMI-Rechner";
+"auto_loan" = "Auto / Kfz";
+"home_loan" = "Haus / Hypothek";
+"personal_loan" = "Privatkredit";
+"student_loan" = "Studienkredit";
+"fha_loan" = "FHA-Darlehen (USA)";
+"eligibility" = "Kreditwürdigkeit";
+"stamp_duty" = "Stempelsteuer / Steuer";
+"reverse_calc" = "Kreditrate (Rückwärts)";
+"comparison" = "Kreditvergleich";
+"rv_loan" = "Wohnmobil-Kredit";
+
+/* Input Fields */
+"loan_amount" = "Kreditbetrag";
+"interest_rate" = "Zinssatz";
+"loan_term" = "Laufzeit";
+"down_payment" = "Anzahlung";
+"trade_in_value" = "Inzahlungnahmewert";
+"sales_tax" = "Umsatzsteuer";
+"registration_fees" = "Anmeldegebühren";
+"property_tax" = "Grundsteuer";
+"home_insurance" = "Hausversicherung";
+"monthly_payment" = "Monatliche Rate";
+"years" = "Jahre";
+"months" = "Monate";
+
+/* Results */
+"calculate" = "Berechnen";
+"monthly_emi" = "Monatliche Rate";
+"total_interest" = "Gesamtzinsen";
+"total_payment" = "Gesamtzahlung";
+"payoff_date" = "Auszahlungsdatum";
+"interest_saved" = "Gesparte Zinsen";
+"time_saved" = "Gesparte Zeit";
+"principal" = "Kapital";
+
+/* Export */
+"share" = "Teilen";
+"export_pdf" = "PDF-Bericht exportieren";
+"export_csv" = "CSV exportieren (Excel)";
+"share_summary" = "Textzusammenfassung teilen";
+"loan_summary_report" = "Kreditzusammenfassungsbericht";
+
+/* Support */
+"support" = "Support";
+"need_help" = "Brauchen Sie Hilfe?";
+"help_subtitle" = "Wir sind hier, um Ihnen bei Fragen zu helfen.";
+"email_support" = "E-Mail-Support";
+"email_response" = "Wir antworten normalerweise innerhalb von 24 Stunden.";
+"report_bug" = "Fehler melden";
+"report_bug_subtitle" = "Helfen Sie uns, durch Meldung von Problemen besser zu werden.";
+"common_questions" = "Häufige Fragen";
+"common_questions_subtitle" = "Finden Sie schnelle Antworten.";
+"app_version" = "App-Version";
+
+/* How to Use */
+"how_to_use" = "Anleitung";
+"understanding_loan_title" = "Ihren Kredit verstehen";
+"understanding_loan_para" = "Diese Anleitung hilft Ihnen, die für genaue Berechnungen erforderlichen Eingaben zu verstehen.";
+"advanced_tools_title" = "Erweiterte Tools";
+"country_rules_title" = "Länderspezifische Regeln";
+"where_to_find_title" = "Wo Informationen zu finden sind";
+"loan_estimate_title" = "Kreditschätzung";
+"loan_estimate_desc" = "Ein dreiseitiges Formular, das Sie nach der Beantragung erhalten.";
+"closing_disclosure_title" = "Abschlussdokument";
+"closing_disclosure_desc" = "Ein Abschlussdokument, das alle Bedingungen Ihres Kredits enthält.";
+"lender_website_title" = "Website des Kreditgebers";
+"lender_website_desc" = "Prüfen Sie den Bereich 'Zinsen' für aktuelle Angebote.";
+"general_inputs" = "Allgemeine Eingaben";
+
+/* Guidance / Info Page */
+"guidance_for" = "Leitfaden für %@";
+"key_inputs" = "Wichtige Eingaben";
+"expert_tips" = "Expertentipps";
+"calculation_logic" = "Berechnungslogik";
+"where_to_find_label" = "Zu finden in: %@";
+"done" = "Fertig";
+
+/* Descriptions */
+"desc_simple_guidance" = "Mehrzweckrechner für Privat- oder ungesicherte Kredite.";
+"desc_auto_guidance" = "Fahrzeugfinanzierung inklusive Inzahlungnahme und Steuern.";
+"desc_rv_guidance" = "Finanzierung für Wohnmobile und Camper.";
+"desc_home_guidance" = "Umfassender Hypothekenrechner.";
+"desc_fha_guidance" = "USA-spezifisches FHA-Darlehen.";
+"desc_student_guidance" = "Berechnet Rückzahlungen für Bildungsfinanzierung.";
+"desc_eligibility_guidance" = "Schätzt die Kreditkapazität basierend auf Einkommen und Schulden.";
+"desc_stamp_duty_guidance" = "Berechnet die staatliche Stempelsteuer auf Eigentumsübertragungen.";
+"desc_reverse_guidance" = "Berechnet den maximalen Kreditbetrag für eine Zielrate.";
+"desc_comparison_guidance" = "Vergleichen Sie zwei Kreditszenarien.";
+
+/* Input Details */
+"input_trade_in" = "Inzahlungnahme";
+"explain_trade_in" = "Wert Ihres alten Fahrzeugs.";
+"input_sales_tax" = "Umsatzsteuer";
+"explain_sales_tax" = "Steuer basierend auf dem Kaufpreis.";
+"input_registration" = "Anmeldegebühren";
+"explain_registration" = "Kosten für die RV-Zulassung.";
+"input_property_tax" = "Grundsteuer";
+"explain_property_tax" = "Lokale Regierungssteuern.";
+"input_home_insurance" = "Hausversicherung";
+"explain_home_insurance" = "Jährliche Schutzkosten.";
+"input_grace_period" = "Karenzzeit";
+"explain_grace_period" = "Zeit nach dem Abschluss vor Zahlungsbeginn.";
+"input_monthly_budget" = "Monatliches Budget";
+"explain_monthly_budget" = "Der Betrag, den Sie sich leisten können.";
+"input_annual_income" = "Jahreseinkommen";
+"explain_annual_income" = "Bruttojahreseinkommen vor Steuern.";
+"input_monthly_debts" = "Monatliche Schulden";
+"explain_monthly_debts" = "Bestehende monatliche Zahlungen.";
+"input_property_value" = "Immobilienwert";
+"explain_property_value" = "Geschätzter Marktwert.";
+"input_down_payment" = "Anzahlung";
+"explain_down_payment" = "Vorab geleistete Barzahlung.";
+"input_loan_a_b" = "Kredit A vs B";
+"explain_loan_a_b" = "Geben Sie Details für beide Szenarien ein.";
+
+/* Sources */
+"source_loan_amount_usa" = "In Ihrer Kreditschätzung zu finden.";
+"source_loan_amount_india" = "In Ihrem Sanktionsschreiben zu finden.";
+"source_annual_income_usa" = "Prüfen Sie Ihre letzte Steuererklärung.";
+"source_annual_income_india" = "Prüfen Sie Ihr Formular 16.";
+"source_property_tax_usa" = "Website des lokalen Steuerassessors.";
+"source_property_tax_india" = "Marktbewertung oder Circle Rate.";
+"source_sales_tax_usa" = "Website des lokalen DMV.";
+"source_sales_tax_india" = "Prüfen Sie aktuelle GST-Sätze.";
+"source_property_value_usa" = "Listenpreis oder Gutachten.";
+"source_property_value_india" = "Circle Rate oder Marktbewertung.";
+"source_financial_statements" = "Prüfen Sie Ihre Finanzdokumente.";
+"source_lender_rates" = "Zinsseite des Kreditgebers.";
+"source_repayment_schedule" = "Dauer des Tilgungsplans.";
+"source_dmv" = "Beziehen Sie sich auf das Verkehrsministerium.";
+"source_student_finance" = "Studienfinanzierungsportal.";
+"source_insurance_quote" = "Angebot des Versicherers.";
+"source_budget_analysis" = "Abgeleitet aus Ihrer Budgetanalyse.";
+"source_loan_offers" = "Verschiedene Kreditangebote.";
+
+/* Rules */
+"rule_usa_fha" = "FHA-Kredite erfordern MIP.";
+"rule_usa_pmi" = "Konventionelle Kredite erfordern oft PMI.";
+"rule_india_gst" = "GST (18%) fällt oft auf Gebühren an.";
+"rule_uk_sdlt" = "SDLT-Schwellenwerte variieren.";
+"rule_uk_erc" = "Vorfälligkeitsentschädigungen sind üblich.";
+"rule_aus_daily_int" = "Zinsen werden täglich berechnet.";
+"rule_aus_lmi" = "LMI fällt an, wenn die Anzahlung <20% ist.";
+"rule_dti_cap" = "Die meisten Kreditgeber begrenzen Wohnkosten auf 30%.";
+"rule_progressive_rates" = "Progressive Steuersätze.";
+"rules_header" = "%@ Spezifische Regeln";
+
+/* Tips */
+"tip_total_interest_comp" = "Fokus auf 'Gesamtzinsen'.";
+"tip_loan_fees" = "Prüfen Sie auf Bearbeitungsgebühren.";
+"tip_rv_terms" = "RV-Kredite haben oft längere Laufzeiten.";
+"tip_drive_away" = "Endpreise enthalten oft Steuern.";
+"tip_hoa_fees" = "Berücksichtigen Sie Nebenkosten.";
+"tip_fha_down" = "FHA erfordert 3,5% Anzahlung.";
+"tip_student_interest" = "Zahlungen während des Studiums sparen Tausende.";
+"tip_student_forgiveness" = "Prüfen Sie auf Erlassprogramme.";
+"tip_dti_ratio" = "Prüfen Sie Ihr DTI-Verhältnis.";
+"tip_dti_reduction" = "Schuldenabbau erhöht Kreditwürdigkeit.";
+"tip_first_time_buyer" = "Erstkäufer erhalten oft Befreiungen.";
+"tip_concessions" = "Prüfen Sie auf Zugeständnisse.";
+"tip_price_range" = "Nützlich zur Preisbereichsermittlung.";
+"tip_lower_payment_cost" = "Niedrige Raten können langfristig teurer sein.";
+"tip_term_length" = "Kürzere Laufzeiten haben oft niedrigere Zinsen.";
+
+/* Detailed Sources and Rules */
+"source_loan_amount_usa" = "In Ihrer Kreditschätzung zu finden.";
+"source_loan_amount_india" = "In Ihrem Sanktionsschreiben zu finden.";
+"source_annual_income_usa" = "Prüfen Sie Ihre letzte Steuererklärung.";
+"source_annual_income_india" = "Prüfen Sie Ihr Formular 16.";
+"source_property_tax_usa" = "Website des lokalen Steuerassessors.";
+"source_property_tax_india" = "Marktbewertung oder Circle Rate.";
+"source_sales_tax_usa" = "Website des lokalen DMV.";
+"source_sales_tax_india" = "Prüfen Sie aktuelle GST-Sätze.";
+"source_property_value_usa" = "Listenpreis oder Gutachten.";
+"source_property_value_india" = "Circle Rate oder Marktbewertung.";
+"source_financial_statements" = "Prüfen Sie Ihre Finanzdokumente.";
+"source_lender_rates" = "Zinsseite des Kreditgebers.";
+"source_repayment_schedule" = "Dauer des Tilgungsplans.";
+"source_dmv" = "Verkehrsministerium.";
+"source_student_finance" = "Studienfinanzierungsportal.";
+"source_insurance_quote" = "Versicherungsangebot.";
+"source_budget_analysis" = "Budgetanalyse.";
+"source_loan_offers" = "Kreditangebote.";
+
+"rule_usa_fha" = "FHA-Kredite erfordern MIP.";
+"rule_usa_pmi" = "Konventionelle Kredite erfordern oft PMI.";
+"rule_india_gst" = "GST (18%) fällt oft auf Gebühren an.";
+"rule_uk_sdlt" = "SDLT-Schwellenwerte variieren.";
+"rule_uk_erc" = "Vorfälligkeitsentschädigungen sind üblich.";
+"rule_aus_daily_int" = "Zinsen werden täglich berechnet.";
+"rule_aus_lmi" = "LMI fällt an, wenn die Anzahlung <20% ist.";
+"rule_dti_cap" = "Die meisten Kreditgeber begrenzen Wohnkosten auf 30%.";
+"rule_progressive_rates" = "Progressive Steuersätze.";
+
+"tip_student_interest" = "Zahlungen während des Studiums sparen Tausende.";
+"tip_student_forgiveness" = "Prüfen Sie auf Erlassprogramme.";
+"tip_dti_reduction" = "Schuldenabbau erhöht Kreditwürdigkeit.";
+"tip_concessions" = "Prüfen Sie auf Zugeständnisse.";
+"tip_lower_payment_cost" = "Niedrige Raten können langfristig teurer sein.";
+
+/* Settings Section Headers */
+"support_feedback" = "Support & Feedback";
+"legal" = "Rechtliches";
+"app_info" = "App-Info";
+"get_support" = "Support erhalten";
+"share_app" = "App teilen";
+"rate_app" = "App bewerten";
+"privacy_policy" = "Datenschutz";
+"terms_of_service" = "Nutzungsbedingungen";
+"version" = "Version";
+"country" = "Land";
+"language" = "Sprache";
+"preferences" = "Einstellungen";
+
+/* Share Menu */
+"share_amortization" = "Tilgungsplan teilen";
+"share_full_report" = "Vollständigen Bericht teilen";
+"share_as_image" = "Als Bild teilen";
+
+/* Additional Input Fields */
+"extra_payment" = "Sondertilgung";
+"grace_period" = "Karenzzeit";
+"annual_income" = "Jahreseinkommen";
+"monthly_debts" = "Monatliche Schulden";
+"monthly_budget" = "Monatliches Budget";
+"property_value" = "Immobilienwert";
+"hoa_fees" = "Hausgeld";
+
+/* Units */
+"monthly" = "Monatlich";
+"yearly" = "Jährlich";
+"bi_weekly" = "Zweiwöchentlich";
+"month" = "Monat";
+"year" = "Jahr";
+
+/* Actions & Buttons */
+"view_detailed_report" = "Detaillierten Bericht anzeigen";
+
+/* Results */
+"borrowing_power" = "Kreditkapazität";
+"total_tax_fees" = "Steuern & Gebühren gesamt";
+
+/* Sections */
+"loan_summary" = "Kreditzusammenfassung";
+"amortization_schedule" = "Tilgungsplan";
+"monthly_escrow" = "Monatliche Rücklage";
+"payment_breakdown" = "Zahlungsaufschlüsselung";
+"show_all" = "Alle anzeigen";
+"view_more" = "Mehr anzeigen";
+"interest" = "Zinsen";
+"balance" = "Restschuld";
+
+/* Export */
+"share_as_pdf" = "Als PDF teilen";
+"share_as_excel" = "Als Excel teilen";
+
+/* Stamp Duty Calculator */
+"custom_tax_rate" = "Benutzerdefinierter Steuersatz";
+"calculation_rule" = "Berechnungsregel";
+"tax_rate_percent" = "Steuersatz (%)";
+"tax_amount" = "Steuerbetrag";
+"flat_fee_amount" = "Pauschalbetrag";
+"per_unit_value" = "Pro Einheitswert";
+"calculating_as" = "Berechnung als";
+"for_every" = "für jeden";
+
+/* Loan Comparison */
+"loan_option_1" = "Kreditoption 1";
+"loan_option_2" = "Kreditoption 2";
+"amount" = "Betrag";
+"rate_percent" = "Zinssatz (%)";
+"option_1" = "Option 1";
+"option_2" = "Option 2";
+"difference_in_total" = "Differenz der Gesamtkosten";
+"total" = "Gesamt";
+
+/* Extra Payment */
+"see_interest_save" = "Sehen Sie, wie viel Zinsen Sie sparen!";
+
+/* Payment Frequency */
+"frequency" = "Häufigkeit";
+"share" = "Als Text teilen";
+
+/* Export & PDF/CSV Labels */
+"generated_by" = "Erstellt von";
+"loan_analysis_report" = "Kreditanalysebericht";
+"summary" = "Zusammenfassung";
+"type" = "Typ";
+"down_payment" = "Anzahlung";
+"trade_in_value" = "Inzahlungnahme";
+"sales_tax" = "Umsatzsteuer";
+"registration_fees" = "Zulassungsgebühren";
+"property_tax_monthly" = "Grundsteuer (Monatlich)";
+"home_insurance_monthly" = "Hausversicherung (Monatlich)";
+"hoa_fees_monthly" = "Hausgeld (Monatlich)";
+"eligibility_analysis" = "Kreditwürdigkeitsanalyse";
+"monthly_income" = "Monatliches Einkommen";
+"max_affordable_emi" = "Max. EMI";
+"report" = "Bericht";
+"date" = "Datum";
+"term" = "Laufzeit";
+"rate" = "Zinssatz";
+"tax" = "Steuer";
+"per_month" = "/Mon";
+"months_short" = "Monate";
+"years_short" = "Jahre";
+
+/* Stamp Duty Basis Descriptions */
+"stamp_duty_basis_usa" = "Grunderwerbsteuer (variiert nach Land).\n• USA variiert nach Bundesstaat.\n• Typischerweise 0,01% bis 4%.\n• Einige Staaten haben keine Übertragungssteuer.";
+"stamp_duty_basis_canada" = "Grunderwerbsteuer.\n• Bundesebene: Keine Bundessteuer.\n• Provinzebene: Variiert stark.\n• Erstkäufer können Rabatte erhalten.";
+"stamp_duty_basis_mexico" = "Impuesto sobre Adquisición de Inmuebles.\n• Typischerweise 2% bis 5%.\n• Variiert nach Bundesstaat.\n• Inklusive Notargebühren.";
+"stamp_duty_basis_india" = "Stempelsteuer & Registrierung.\n• Bereich: 3% bis 7% (variiert nach Bundesstaat).\n• Registrierungsgebühr: ~1% extra.\n• Frauen erhalten in einigen Bundesstaaten Rabatte.";
+"stamp_duty_basis_indonesia" = "BPHTB (Grunderwerbsteuer).\n• Formel: (Immobilienwert - NPOPTKP) * 5%.\n• NPOPTKP: Steuerfreier Schwellenwert.\n• Obligatorisch für alle Immobilienübertragungen.";
+"stamp_duty_basis_uk" = "SDLT (Grunderwerbsteuer).\n• 0% auf die ersten £250.000.\n• 5% auf £250.001 - £925.000.\n• 10% auf £925.001 - £1,5M.\n• 12% über £1,5M.\n• Erstkäufer: 0% bis £425.000.";
+"stamp_duty_basis_australia" = "Bundesstaatliche Übertragungssteuer.\n• Bereich: Ca. 1,25% bis 5,5%.\n• NSW: $800k Befreiung für Erstkäufer.\n• Variiert nach Bundesstaat.";
+"stamp_duty_basis_germany" = "Grunderwerbsteuer.
+• Steuersatz: 3,5% bis 6,5% (variiert nach Bundesland).
+• Bayern und Sachsen: 3,5%. Berlin und Hessen: 6%.
+• App verwendet 5% Durchschnitt. Benutzerdefinierten Satz eingeben.";
+"stamp_duty_basis_france" = "Droits de Mutation (À Titre Onéreux).
+• Steuersatz: ≈5,806% für Bestandsimmobilien.
+• Umfasst Départements-, Staats- und Gemeindesteuer.
+• Neubau: TVA (20%) ersetzt Übertragungssteuer.";
+
+/* Tax Calculation Types */
+"percentage" = "Prozentsatz (%)";
+"amount_per_unit" = "Betrag pro Einheit";
+"flat_fee" = "Pauschalgebühr";
+
+/* Stamp Duty Example Text */
+"example_florida_tax" = "Beispiel: Für Florida geben Sie %@ in 'Steuerbetrag' und %@ in 'Pro Einheitswert' ein.";
+"calculating_as_prefix" = "Berechnung als";
+"property_value" = "Immobilienwert";
+
+/* Formula/Calculation Logic */
+"calculation_logic" = "Berechnungslogik";
+"formula_tax_bands" = "Berechnet basierend auf staatlichen/nationalen Steuerstufen.";
+
+/* Calculator Formulas */
+"formula_emi" = "M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1 ]";
+"formula_auto" = "Kapital = (Preis + Steuer + Gebühren) - Anzahlung - Inzahlungnahme";
+"formula_home" = "Gesamt = Kapital + Zinsen + Steuer + Versicherung";
+"formula_student" = "Tilgung einschließlich kapitalisierter Zinsen.";
+"formula_eligibility" = "(Bruttoeinkommen * 0,28) - Bestehende monatliche Schulden";
+"formula_reverse" = "PV = PMT * [(1 - (1 + i)^-n) / i]";
+"formula_comparison" = "Vergleich zweier Standard-Tilgungsergebnisse.";
+
+/* Ads & Coins */
+"watch_ad_unlock" = "Kurzes Video ansehen zum Freischalten";
+"earn_coins" = "%d Münzen verdienen";
+"spend_coins" = "%d Münzen ausgeben";
+"coin_balance" = "Münzen";
+"not_enough_coins" = "Nicht genug Münzen";
+"earn_more_coins" = "Mehr Münzen verdienen";
+"earn_coins_button" = "Werbung ansehen für Münzen";
+"ad_label" = "Werbung";
+"full_schedule_locked" = "Kurzes Video ansehen für alle %d Monate";
+"full_schedule_unlock" = "Vollständigen Tilgungsplan anzeigen";
+"download_report" = "Bericht herunterladen";
+"free_preview" = "Erste 60 Monate angezeigt";
+"starting_bonus" = "Willkommen! Sie haben %d kostenlose Münzen erhalten";
+"watch_ad_for_coins" = "Sehen Sie ein kurzes Video, um Münzen zu verdienen und Ihren Bericht herunterzuladen.";
+"cancel" = "Abbrechen";
+"your_coins" = "Ihre Münzen";
+"coin_pricing" = "Was Münzen kaufen können";
+"pdf_report" = "PDF-Bericht";
+"csv_report" = "CSV / Excel-Bericht";
+"coin_info_text" = "Münzen werden durch das Ansehen kurzer Videos verdient. Sie können zum Herunterladen detaillierter Berichte verwendet werden.";
+"coin_wallet" = "Münzbörse";
+
+/* Appearance */
+"appearance" = "Erscheinungsbild";
+"appearance_system" = "System";
+"appearance_light" = "Hell";
+"appearance_dark" = "Dunkel";
+
+/* Feature Tour */
+"tour_calculators_title" = "Alles-in-Einem Rechner";
+"tour_calculators_subtitle" = "EMI, Haus, Auto, Studium und mehr — mit länderspezifischen Regeln.";
+"tour_analysis_title" = "Detaillierte Analyse";
+"tour_analysis_subtitle" = "Diagramme, Tilgungspläne und Export als PDF oder CSV.";
+"tour_coins_title" = "Verdienen & Herunterladen";
+"tour_coins_subtitle" = "Sehen Sie ein kurzes Video, um Münzen zu verdienen und Berichte herunterzuladen.";
+"skip" = "Überspringen";
+"next" = "Weiter";
+"get_started" = "Loslegen";
+
+/* Authentication */
+"account" = "Konto";
+"sign_in" = "Anmelden";
+"sign_up" = "Registrieren";
+"sign_out" = "Abmelden";
+"sign_in_apple" = "Mit Apple anmelden";
+"sign_in_google" = "Mit Google anmelden";
+"sign_in_email" = "Mit E-Mail anmelden";
+"sign_up_apple" = "Mit Apple registrieren";
+"sign_up_google" = "Mit Google registrieren";
+"sign_up_email" = "Mit E-Mail registrieren";
+"sign_in_subtitle" = "Synchronisieren Sie Ihre Daten zwischen Geräten und schalten Sie Cloud-Funktionen frei.";
+"sign_in_benefits" = "Münzen & Berechnungen zwischen Geräten synchronisieren";
+"continue_as_guest" = "Als Gast fortfahren";
+"create_account" = "Konto erstellen";
+"create_account_subtitle" = "Registrieren Sie sich, um Berechnungen zu speichern und zwischen Geräten zu synchronisieren.";
+"welcome_back" = "Willkommen zurück";
+"email_placeholder" = "E-Mail-Adresse";
+"password_placeholder" = "Passwort (mind. 6 Zeichen)";
+"already_have_account" = "Haben Sie bereits ein Konto? Anmelden";
+"already_have_account_short" = "Konto vorhanden? Anmelden";
+"dont_have_account" = "Kein Konto? Registrieren";
+"dont_have_account_short" = "Neu hier? Registrieren";
+"forgot_password" = "Passwort vergessen?";
+"reset_password" = "Passwort zurücksetzen";
+"send_reset_link" = "Link senden";
+"check_email" = "Prüfen Sie Ihre E-Mail";
+"reset_link_sent" = "Ein Link zum Zurücksetzen des Passworts wurde gesendet.";
+"profile" = "Profil";
+"account_stats" = "Statistiken";
+"calculations_made" = "Durchgeführte Berechnungen";
+"delete_account" = "Konto löschen";
+"delete_account_confirm" = "Sind Sie sicher? Diese Aktion kann nicht rückgängig gemacht werden. Alle Daten werden dauerhaft gelöscht.";
+"sign_out_confirm" = "Sind Sie sicher, dass Sie sich abmelden möchten?";
+
+/* Auth Errors */
+"error_invalid_credentials" = "Die E-Mail oder das Passwort ist falsch.";
+"error_email_in_use" = "Diese E-Mail ist bereits registriert. Versuchen Sie, sich anzumelden.";
+"error_weak_password" = "Passwort ist zu schwach. Bitte verwenden Sie mindestens 6 Zeichen.";
+"error_rate_limit" = "Zu viele Versuche. Bitte versuchen Sie es später noch einmal.";
+"error_network" = "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.";
+
+/* ResultsView – Previously Hardcoded Strings */
+"gross_monthly_income" = "Bruttomonatseinkommen";
+"max_emi_allowed" = "Max. Monatliche EMI Erlaubt (28%)";
+"existing_monthly_debts" = "Bestehende Monatliche Schulden";
+"net_monthly_for_loan" = "Netto Monatlich für Kredit";
+"tax_breakdown" = "Steueraufschlüsselung";
+"applied_custom_rate" = "Benutzerdefinierter Steuersatz Angewendet";
+"calculation_basis" = "Berechnungsbasis";
+"vehicle_details" = "Fahrzeugdetails";
+"rv_details" = "Wohnmobil-Details";
+"student_loan_details" = "Studienkreditdetails";
+"savings_achievement" = "Sparziel Erreicht";
+"total_saved_label" = "Gespart Gesamt:";
+"time_saved_label" = "Zeit Gespart:";
+"vehicle_price" = "Fahrzeugpreis";
+"tuition_amount" = "Studiengebühren";
+"estimated_stamp_duty" = "Geschätzte Stempelsteuer";
+"generated_by_app" = "Erstellt von LoanPro 2025";
+"eligibility_analysis_title" = "Kreditwürdigkeitsanalyse";

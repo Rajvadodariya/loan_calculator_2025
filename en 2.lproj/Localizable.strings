@@ -1,0 +1,99 @@
+/* English - Base Language */
+
+/* Navigation & Titles */
+"welcome" = "Welcome to LoanPro 2025";
+"select_country" = "Select Country";
+"select_country_subtitle" = "Select your country to apply local banking regulations and tax rules.";
+"app_language" = "App Language";
+"continue" = "Continue";
+"settings" = "Settings & Info";
+"analysis" = "Analysis";
+"home" = "Home";
+
+/* Calculator Types */
+"emi_calculator" = "EMI Calculator";
+"auto_loan" = "Auto / Car Loan";
+"home_loan" = "Home Loan";
+"personal_loan" = "Personal Loan";
+"student_loan" = "Student Loan";
+"fha_loan" = "FHA Loan";
+"eligibility" = "Eligibility Calculator";
+"stamp_duty" = "Stamp Duty";
+"reverse_calc" = "Reverse Calculator";
+"comparison" = "Loan Comparison";
+"rv_loan" = "RV Loan";
+
+/* Input Fields */
+"loan_amount" = "Loan Amount";
+"interest_rate" = "Interest Rate (%)";
+"loan_term" = "Loan Term";
+"down_payment" = "Down Payment";
+"trade_in_value" = "Trade-In Value";
+"sales_tax" = "Sales Tax (%)";
+"registration_fees" = "Registration Fees";
+"property_tax" = "Property Tax";
+"home_insurance" = "Home Insurance";
+"hoa_fees" = "HOA Fees";
+"grace_period" = "Grace Period";
+"annual_income" = "Annual Gross Income";
+"monthly_debts" = "Monthly Debt Payments";
+"property_value" = "Property Value";
+"extra_payment" = "Extra Monthly Payment";
+"monthly_budget" = "Monthly Budget";
+
+/* Results */
+"monthly_payment" = "Monthly Payment";
+"total_interest" = "Total Interest";
+"total_payment" = "Total Payment";
+"total_tax_fees" = "Total Tax/Fees";
+"payoff_date" = "Payoff Date";
+"borrowing_power" = "Borrowing Power";
+"interest_saved" = "Interest Saved";
+"time_saved" = "Time Saved";
+
+/* Sections */
+"loan_summary" = "Loan Summary";
+"amortization_schedule" = "Amortization Schedule";
+"monthly_escrow" = "Monthly Escrow";
+"payment_breakdown" = "Payment Breakdown";
+"preferences" = "Preferences";
+"support_feedback" = "Support & Feedback";
+"legal" = "Legal";
+"app_info" = "App Info";
+
+/* Actions */
+"calculate" = "Calculate";
+"view_detailed_report" = "View Detailed Report";
+"share" = "Share";
+"share_as_image" = "Share as Image";
+"share_as_pdf" = "As PDF";
+"share_as_excel" = "As Excel (CSV)";
+"share_full_report" = "Share Full Report";
+"share_amortization" = "Share Amortization";
+
+/* Settings */
+"country" = "Country";
+"language" = "Language";
+"how_to_use" = "How to Use Guide";
+"get_support" = "Get Support";
+"share_app" = "Share App";
+"rate_app" = "Rate on App Store";
+"privacy_policy" = "Privacy Policy";
+"terms_of_service" = "Terms of Service";
+"version" = "Version";
+
+/* Units */
+"years" = "Years";
+"months" = "Months";
+"monthly" = "Monthly";
+"yearly" = "Yearly";
+"bi_weekly" = "Bi-Weekly";
+
+/* Misc */
+"principal" = "Principal";
+"interest" = "Interest";
+"balance" = "Balance";
+"month" = "Month";
+"year" = "Year";
+"show_all" = "Show All";
+"view_more" = "View More";

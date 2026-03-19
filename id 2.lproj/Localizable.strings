@@ -1,0 +1,99 @@
+/* Indonesian - Bahasa Indonesia */
+
+/* Navigation & Titles */
+"welcome" = "Selamat Datang di LoanPro 2025";
+"select_country" = "Pilih Negara";
+"select_country_subtitle" = "Pilih negara Anda untuk menerapkan peraturan perbankan dan pajak setempat.";
+"app_language" = "Bahasa Aplikasi";
+"continue" = "Lanjutkan";
+"settings" = "Pengaturan & Info";
+"analysis" = "Analisis";
+"home" = "Beranda";
+
+/* Calculator Types */
+"emi_calculator" = "Kalkulator EMI";
+"auto_loan" = "Kredit Mobil";
+"home_loan" = "Kredit Rumah";
+"personal_loan" = "Kredit Pribadi";
+"student_loan" = "Kredit Pendidikan";
+"fha_loan" = "Kredit FHA";
+"eligibility" = "Kalkulator Kelayakan";
+"stamp_duty" = "Bea Materai";
+"reverse_calc" = "Kalkulator Terbalik";
+"comparison" = "Perbandingan Kredit";
+"rv_loan" = "Kredit RV";
+
+/* Input Fields */
+"loan_amount" = "Jumlah Pinjaman";
+"interest_rate" = "Suku Bunga (%)";
+"loan_term" = "Jangka Waktu";
+"down_payment" = "Uang Muka";
+"trade_in_value" = "Nilai Tukar Tambah";
+"sales_tax" = "Pajak Penjualan (%)";
+"registration_fees" = "Biaya Pendaftaran";
+"property_tax" = "Pajak Properti";
+"home_insurance" = "Asuransi Rumah";
+"hoa_fees" = "Iuran Pengelola";
+"grace_period" = "Masa Tenggang";
+"annual_income" = "Penghasilan Tahunan Kotor";
+"monthly_debts" = "Cicilan Bulanan";
+"property_value" = "Nilai Properti";
+"extra_payment" = "Pembayaran Ekstra Bulanan";
+"monthly_budget" = "Anggaran Bulanan";
+
+/* Results */
+"monthly_payment" = "Pembayaran Bulanan";
+"total_interest" = "Total Bunga";
+"total_payment" = "Total Pembayaran";
+"total_tax_fees" = "Total Pajak/Biaya";
+"payoff_date" = "Tanggal Lunas";
+"borrowing_power" = "Kemampuan Pinjam";
+"interest_saved" = "Bunga Terhemat";
+"time_saved" = "Waktu Terhemat";
+
+/* Sections */
+"loan_summary" = "Ringkasan Pinjaman";
+"amortization_schedule" = "Jadwal Amortisasi";
+"monthly_escrow" = "Escrow Bulanan";
+"payment_breakdown" = "Rincian Pembayaran";
+"preferences" = "Preferensi";
+"support_feedback" = "Bantuan & Masukan";
+"legal" = "Hukum";
+"app_info" = "Info Aplikasi";
+
+/* Actions */
+"calculate" = "Hitung";
+"view_detailed_report" = "Lihat Laporan Detail";
+"share" = "Bagikan";
+"share_as_image" = "Bagikan sebagai Gambar";
+"share_as_pdf" = "Sebagai PDF";
+"share_as_excel" = "Sebagai Excel (CSV)";
+"share_full_report" = "Bagikan Laporan Lengkap";
+"share_amortization" = "Bagikan Amortisasi";
+
+/* Settings */
+"country" = "Negara";
+"language" = "Bahasa";
+"how_to_use" = "Panduan Penggunaan";
+"get_support" = "Dapatkan Bantuan";
+"share_app" = "Bagikan Aplikasi";
+"rate_app" = "Nilai di App Store";
+"privacy_policy" = "Kebijakan Privasi";
+"terms_of_service" = "Ketentuan Layanan";
+"version" = "Versi";
+
+/* Units */
+"years" = "Tahun";
+"months" = "Bulan";
+"monthly" = "Bulanan";
+"yearly" = "Tahunan";
+"bi_weekly" = "Dua Mingguan";
+
+/* Misc */
+"principal" = "Pokok";
+"interest" = "Bunga";
+"balance" = "Saldo";
+"month" = "Bulan";
+"year" = "Tahun";
+"show_all" = "Lihat Semua";
+"view_more" = "Lihat Lebih";

@@ -1,0 +1,99 @@
+/* Dutch - Nederlands */
+
+/* Navigation & Titles */
+"welcome" = "Welkom bij LoanPro 2025";
+"select_country" = "Selecteer Land";
+"select_country_subtitle" = "Selecteer uw land om lokale bank- en belastingregels toe te passen.";
+"app_language" = "App Taal";
+"continue" = "Doorgaan";
+"settings" = "Instellingen & Info";
+"analysis" = "Analyse";
+"home" = "Home";
+
+/* Calculator Types */
+"emi_calculator" = "EMI Calculator";
+"auto_loan" = "Autolening";
+"home_loan" = "Hypotheek";
+"personal_loan" = "Persoonlijke Lening";
+"student_loan" = "Studielening";
+"fha_loan" = "FHA Lening";
+"eligibility" = "Geschiktheid Calculator";
+"stamp_duty" = "Overdrachtsbelasting";
+"reverse_calc" = "Omgekeerde Calculator";
+"comparison" = "Lening Vergelijking";
+"rv_loan" = "Camper Lening";
+
+/* Input Fields */
+"loan_amount" = "Leenbedrag";
+"interest_rate" = "Rentepercentage (%)";
+"loan_term" = "Looptijd";
+"down_payment" = "Aanbetaling";
+"trade_in_value" = "Inruilwaarde";
+"sales_tax" = "BTW (%)";
+"registration_fees" = "Registratiekosten";
+"property_tax" = "Onroerendezaakbelasting";
+"home_insurance" = "Woonverzekering";
+"hoa_fees" = "VvE Kosten";
+"grace_period" = "Aflossingsvrije Periode";
+"annual_income" = "Bruto Jaarinkomen";
+"monthly_debts" = "Maandelijkse Schulden";
+"property_value" = "Woningwaarde";
+"extra_payment" = "Extra Maandelijkse Betaling";
+"monthly_budget" = "Maandbudget";
+
+/* Results */
+"monthly_payment" = "Maandelijkse Betaling";
+"total_interest" = "Totale Rente";
+"total_payment" = "Totale Betaling";
+"total_tax_fees" = "Totale Belastingen/Kosten";
+"payoff_date" = "Aflosdatum";
+"borrowing_power" = "Leencapaciteit";
+"interest_saved" = "Bespaarde Rente";
+"time_saved" = "Bespaarde Tijd";
+
+/* Sections */
+"loan_summary" = "Lening Overzicht";
+"amortization_schedule" = "Aflossingsschema";
+"monthly_escrow" = "Maandelijkse Reserve";
+"payment_breakdown" = "Betalingsoverzicht";
+"preferences" = "Voorkeuren";
+"support_feedback" = "Ondersteuning & Feedback";
+"legal" = "Juridisch";
+"app_info" = "App Info";
+
+/* Actions */
+"calculate" = "Berekenen";
+"view_detailed_report" = "Bekijk Gedetailleerd Rapport";
+"share" = "Delen";
+"share_as_image" = "Delen als Afbeelding";
+"share_as_pdf" = "Als PDF";
+"share_as_excel" = "Als Excel (CSV)";
+"share_full_report" = "Volledig Rapport Delen";
+"share_amortization" = "Aflossing Delen";
+
+/* Settings */
+"country" = "Land";
+"language" = "Taal";
+"how_to_use" = "Gebruikershandleiding";
+"get_support" = "Ondersteuning Krijgen";
+"share_app" = "App Delen";
+"rate_app" = "Beoordeel in App Store";
+"privacy_policy" = "Privacybeleid";
+"terms_of_service" = "Servicevoorwaarden";
+"version" = "Versie";
+
+/* Units */
+"years" = "Jaren";
+"months" = "Maanden";
+"monthly" = "Maandelijks";
+"yearly" = "Jaarlijks";
+"bi_weekly" = "Tweewekelijks";
+
+/* Misc */
+"principal" = "Hoofdsom";
+"interest" = "Rente";
+"balance" = "Saldo";
+"month" = "Maand";
+"year" = "Jaar";
+"show_all" = "Alles Tonen";
+"view_more" = "Meer Bekijken";

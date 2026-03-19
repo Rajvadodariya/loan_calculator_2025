@@ -1,0 +1,99 @@
+/* German - Deutsch */
+
+/* Navigation & Titles */
+"welcome" = "Willkommen bei LoanPro 2025";
+"select_country" = "Land auswählen";
+"select_country_subtitle" = "Wählen Sie Ihr Land aus, um lokale Bankvorschriften und Steuerregeln anzuwenden.";
+"app_language" = "App-Sprache";
+"continue" = "Weiter";
+"settings" = "Einstellungen & Info";
+"analysis" = "Analyse";
+"home" = "Startseite";
+
+/* Calculator Types */
+"emi_calculator" = "EMI-Rechner";
+"auto_loan" = "Autokredit";
+"home_loan" = "Baufinanzierung";
+"personal_loan" = "Privatkredit";
+"student_loan" = "Studienkredit";
+"fha_loan" = "FHA-Darlehen";
+"eligibility" = "Kreditwürdigkeit";
+"stamp_duty" = "Grunderwerbsteuer";
+"reverse_calc" = "Rückwärtsrechner";
+"comparison" = "Kreditvergleich";
+"rv_loan" = "Wohnmobil-Kredit";
+
+/* Input Fields */
+"loan_amount" = "Darlehensbetrag";
+"interest_rate" = "Zinssatz (%)";
+"loan_term" = "Laufzeit";
+"down_payment" = "Anzahlung";
+"trade_in_value" = "Inzahlungnahme";
+"sales_tax" = "Mehrwertsteuer (%)";
+"registration_fees" = "Zulassungsgebühren";
+"property_tax" = "Grundsteuer";
+"home_insurance" = "Gebäudeversicherung";
+"hoa_fees" = "Hausgeld";
+"grace_period" = "Karenzzeit";
+"annual_income" = "Jahresbruttoeinkommen";
+"monthly_debts" = "Monatliche Schulden";
+"property_value" = "Immobilienwert";
+"extra_payment" = "Monatliche Sondertilgung";
+"monthly_budget" = "Monatliches Budget";
+
+/* Results */
+"monthly_payment" = "Monatliche Rate";
+"total_interest" = "Gesamtzinsen";
+"total_payment" = "Gesamtbetrag";
+"total_tax_fees" = "Steuern/Gebühren";
+"payoff_date" = "Enddatum";
+"borrowing_power" = "Kreditrahmen";
+"interest_saved" = "Zinsen gespart";
+"time_saved" = "Zeit gespart";
+
+/* Sections */
+"loan_summary" = "Kreditübersicht";
+"amortization_schedule" = "Tilgungsplan";
+"monthly_escrow" = "Monatliche Nebenkosten";
+"payment_breakdown" = "Zahlungsaufschlüsselung";
+"preferences" = "Einstellungen";
+"support_feedback" = "Support & Feedback";
+"legal" = "Rechtliches";
+"app_info" = "App-Info";
+
+/* Actions */
+"calculate" = "Berechnen";
+"view_detailed_report" = "Detaillierter Bericht";
+"share" = "Teilen";
+"share_as_image" = "Als Bild teilen";
+"share_as_pdf" = "Als PDF";
+"share_as_excel" = "Als Excel (CSV)";
+"share_full_report" = "Vollständigen Bericht teilen";
+"share_amortization" = "Tilgungsplan teilen";
+
+/* Settings */
+"country" = "Land";
+"language" = "Sprache";
+"how_to_use" = "Bedienungsanleitung";
+"get_support" = "Support erhalten";
+"share_app" = "App teilen";
+"rate_app" = "Im App Store bewerten";
+"privacy_policy" = "Datenschutzrichtlinie";
+"terms_of_service" = "Nutzungsbedingungen";
+"version" = "Version";
+
+/* Units */
+"years" = "Jahre";
+"months" = "Monate";
+"monthly" = "Monatlich";
+"yearly" = "Jährlich";
+"bi_weekly" = "Zweiwöchentlich";
+
+/* Misc */
+"principal" = "Tilgung";
+"interest" = "Zinsen";
+"balance" = "Restschuld";
+"month" = "Monat";
+"year" = "Jahr";
+"show_all" = "Alle anzeigen";
+"view_more" = "Mehr anzeigen";

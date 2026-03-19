@@ -1,0 +1,99 @@
+/* Hindi - हिन्दी */
+
+/* Navigation & Titles */
+"welcome" = "LoanPro 2025 में आपका स्वागत है";
+"select_country" = "देश चुनें";
+"select_country_subtitle" = "स्थानीय बैंकिंग नियम और कर लागू करने के लिए अपना देश चुनें।";
+"app_language" = "ऐप भाषा";
+"continue" = "जारी रखें";
+"settings" = "सेटिंग्स और जानकारी";
+"analysis" = "विश्लेषण";
+"home" = "होम";
+
+/* Calculator Types */
+"emi_calculator" = "EMI कैलकुलेटर";
+"auto_loan" = "ऑटो लोन";
+"home_loan" = "होम लोन";
+"personal_loan" = "पर्सनल लोन";
+"student_loan" = "स्टूडेंट लोन";
+"fha_loan" = "FHA लोन";
+"eligibility" = "पात्रता कैलकुलेटर";
+"stamp_duty" = "स्टांप ड्यूटी";
+"reverse_calc" = "रिवर्स कैलकुलेटर";
+"comparison" = "लोन तुलना";
+"rv_loan" = "RV लोन";
+
+/* Input Fields */
+"loan_amount" = "लोन राशि";
+"interest_rate" = "ब्याज दर (%)";
+"loan_term" = "लोन अवधि";
+"down_payment" = "डाउन पेमेंट";
+"trade_in_value" = "ट्रेड-इन मूल्य";
+"sales_tax" = "बिक्री कर (%)";
+"registration_fees" = "पंजीकरण शुल्क";
+"property_tax" = "संपत्ति कर";
+"home_insurance" = "गृह बीमा";
+"hoa_fees" = "HOA शुल्क";
+"grace_period" = "ग्रेस पीरियड";
+"annual_income" = "वार्षिक सकल आय";
+"monthly_debts" = "मासिक ऋण भुगतान";
+"property_value" = "संपत्ति मूल्य";
+"extra_payment" = "अतिरिक्त मासिक भुगतान";
+"monthly_budget" = "मासिक बजट";
+
+/* Results */
+"monthly_payment" = "मासिक भुगतान";
+"total_interest" = "कुल ब्याज";
+"total_payment" = "कुल भुगतान";
+"total_tax_fees" = "कुल कर/शुल्क";
+"payoff_date" = "पूर्ण भुगतान तिथि";
+"borrowing_power" = "उधार क्षमता";
+"interest_saved" = "बचाया गया ब्याज";
+"time_saved" = "बचाया गया समय";
+
+/* Sections */
+"loan_summary" = "लोन सारांश";
+"amortization_schedule" = "परिशोधन अनुसूची";
+"monthly_escrow" = "मासिक एस्क्रो";
+"payment_breakdown" = "भुगतान विवरण";
+"preferences" = "प्राथमिकताएं";
+"support_feedback" = "सहायता और प्रतिक्रिया";
+"legal" = "कानूनी";
+"app_info" = "ऐप जानकारी";
+
+/* Actions */
+"calculate" = "गणना करें";
+"view_detailed_report" = "विस्तृत रिपोर्ट देखें";
+"share" = "शेयर करें";
+"share_as_image" = "इमेज के रूप में शेयर करें";
+"share_as_pdf" = "PDF के रूप में";
+"share_as_excel" = "Excel (CSV) के रूप में";
+"share_full_report" = "पूर्ण रिपोर्ट शेयर करें";
+"share_amortization" = "परिशोधन शेयर करें";
+
+/* Settings */
+"country" = "देश";
+"language" = "भाषा";
+"how_to_use" = "उपयोग गाइड";
+"get_support" = "सहायता प्राप्त करें";
+"share_app" = "ऐप शेयर करें";
+"rate_app" = "App Store पर रेट करें";
+"privacy_policy" = "गोपनीयता नीति";
+"terms_of_service" = "सेवा की शर्तें";
+"version" = "संस्करण";
+
+/* Units */
+"years" = "वर्ष";
+"months" = "महीने";
+"monthly" = "मासिक";
+"yearly" = "वार्षिक";
+"bi_weekly" = "पाक्षिक";
+
+/* Misc */
+"principal" = "मूलधन";
+"interest" = "ब्याज";
+"balance" = "शेष राशि";
+"month" = "महीना";
+"year" = "वर्ष";
+"show_all" = "सभी देखें";
+"view_more" = "और देखें";

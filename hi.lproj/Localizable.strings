@@ -1,0 +1,350 @@
+"welcome" = "स्वागत है";
+"select_country" = "अपना देश चुनें";
+"select_country_subtitle" = "सटीक अनुमान प्रदान करने के लिए";
+"app_language" = "ऐप की भाषा";
+"continue" = "जारी रखें";
+"settings" = "सेटिंग्स";
+"analysis" = "विश्लेषण";
+"home" = "होम";
+
+/* Calculator Types */
+"emi_calculator" = "ईएमआई कैलकुलेटर";
+"auto_loan" = "ऑटो / कार";
+"home_loan" = "होम / मोर्टगेज";
+"personal_loan" = "व्यक्तिगत ऋण";
+"student_loan" = "शिक्षा ऋण";
+"fha_loan" = "FHA ऋण (USA)";
+"eligibility" = "ऋण पात्रता";
+"stamp_duty" = "स्टाम्प शुल्क / कर";
+"reverse_calc" = "ऋण भुगतान (उल्टा)";
+"comparison" = "ऋण तुलना";
+"rv_loan" = "आरवी लोन";
+
+/* Input Fields */
+"loan_amount" = "ऋण राशि";
+"interest_rate" = "ब्याज दर";
+"loan_term" = "ऋण अवधि";
+"down_payment" = "डाउन पेमेंट";
+"trade_in_value" = "पुरानी गाड़ी की कीमत";
+"sales_tax" = "बिक्री कर";
+"registration_fees" = "पंजीकरण शुल्क";
+"property_tax" = "संपत्ति कर";
+"home_insurance" = "घर का बीमा";
+"monthly_payment" = "मासिक भुगतान";
+"years" = "वर्ष";
+"months" = "महीने";
+
+/* Results */
+"calculate" = "गणना करें";
+"monthly_emi" = "मासिक ईएमआई";
+"total_interest" = "कुल ब्याज";
+"total_payment" = "कुल भुगतान";
+"payoff_date" = "भुगतान की तारीख";
+"interest_saved" = "बचाया गया ब्याज";
+"time_saved" = "बचाया गया समय";
+"principal" = "मूलधन";
+
+/* How to Use */
+"how_to_use" = "उपयोग कैसे करें";
+"understanding_loan_title" = "अपने ऋण को समझें";
+"understanding_loan_para" = "यह मार्गदर्शिका आपको सटीक ऋण गणना के लिए आवश्यक इनपुट को समझने में मदद करेगी।";
+"advanced_tools_title" = "उन्नत उपकरण";
+"country_rules_title" = "देश-विशिष्ट नियम";
+"where_to_find_title" = "जानकारी कहाँ मिलेगी";
+"general_inputs" = "सामान्य इनपुट";
+
+/* Guidance / Info Page */
+"guidance_for" = "%@ के लिए मार्गदर्शन";
+"key_inputs" = "मुख्य इनपुट";
+"expert_tips" = "विशेषज्ञ सुझाव";
+"calculation_logic" = "गणना तर्क";
+"where_to_find_label" = "यहाँ खोजें: %@";
+"done" = "हो गया";
+
+/* Descriptions */
+"desc_simple_guidance" = "व्यक्तिगत या असुरक्षित ऋणों के लिए सामान्य कैलकुलेटर।";
+"desc_auto_guidance" = "वाहन वित्तपोषण जिसमें ट्रेड-इन और टैक्स शामिल हैं।";
+"desc_rv_guidance" = "मनोरंजक वाहनों के लिए वित्तपोषण।";
+"desc_home_guidance" = "व्यापक होम लोन कैलकुलेटर।";
+"desc_fha_guidance" = "यूएसए-विशिष्ट एफएचए लोन।";
+
+/* Rules */
+"rules_header" = "%@ विशिष्ट नियम";
+"tip_total_interest_comp" = "कुल भुगतान किए गए ब्याज पर ध्यान दें।";
+
+/* Detailed Sources and Rules */
+"source_loan_amount_usa" = "ऋण अनुमान पत्र में मिलता है।";
+"source_loan_amount_india" = "बैंक के सैंक्शन लेटर में मिलता है।";
+"source_annual_income_usa" = "पिछला आयकर रिटर्न देखें।";
+"source_annual_income_india" = "फॉर्म 16 या आईटीआर देखें।";
+"source_financial_statements" = "वित्तीय जानकारी देखें।";
+"source_lender_rates" = "बैंक की वेबसाइट पर ब्याज दरें देखें।";
+"source_repayment_schedule" = "भुगतान अवधि।";
+"source_insurance_quote" = "बीमा कोटेशन।";
+"source_budget_analysis" = "बजट विश्लेषण।";
+"source_loan_offers" = "ऋण प्रस्ताव।";
+
+"rule_usa_fha" = "FHA ऋणों के लिए MIP आवश्यक है।";
+"rule_usa_pmi" = "मोर्टगेज बीमा की आवश्यकता हो सकती है।";
+"rule_india_gst" = "सेवा शुल्क पर जीएसटी लग सकता है।";
+"rule_uk_sdlt" = "SDLT की सीमाएँ बदलती रहती हैं।";
+"rule_uk_erc" = "समय से पहले भुगतान पर शुल्क लग सकता है।";
+"rule_aus_daily_int" = "ब्याज की गणना दैनिक होती है।";
+"rule_aus_lmi" = "LMI लागू हो सकता है।";
+"rule_dti_cap" = "ऋणदाता 30% सीमा तय करते हैं।";
+"rule_progressive_rates" = "दरें प्रगतिशील होती हैं।";
+
+"tip_student_interest" = "पढ़ाई के दौरान ब्याज चुकाने से बचत होती है।";
+"tip_student_forgiveness" = "ऋण माफी कार्यक्रमों की जांच करें।";
+"tip_dti_reduction" = "पुराना कर्ज चुकाने से ऋण शक्ति बढ़ती है।";
+"tip_concessions" = "छूट की जांच करें।";
+"tip_lower_payment_cost" = "कम ईएमआई लंबे समय में महंगी हो सकती है।";
+
+/* Settings Section Headers */
+"support_feedback" = "सहायता और प्रतिक्रिया";
+"legal" = "कानूनी";
+"app_info" = "ऐप जानकारी";
+"get_support" = "सहायता प्राप्त करें";
+"share_app" = "ऐप साझा करें";
+"rate_app" = "ऐप रेट करें";
+"privacy_policy" = "गोपनीयता नीति";
+"terms_of_service" = "सेवा की शर्तें";
+"version" = "संस्करण";
+"country" = "देश";
+"language" = "भाषा";
+"preferences" = "प्राथमिकताएँ";
+
+/* Share Menu */
+"share_amortization" = "परिशोधन साझा करें";
+"share_full_report" = "पूर्ण रिपोर्ट साझा करें";
+"share_as_image" = "छवि के रूप में साझा करें";
+
+/* Additional Input Fields */
+"extra_payment" = "अतिरिक्त भुगतान";
+"grace_period" = "छूट अवधि";
+"annual_income" = "वार्षिक आय";
+"monthly_debts" = "मासिक ऋण";
+"monthly_budget" = "मासिक बजट";
+"property_value" = "संपत्ति मूल्य";
+"hoa_fees" = "HOA शुल्क";
+
+/* Units */
+"monthly" = "मासिक";
+"yearly" = "वार्षिक";
+"bi_weekly" = "पाक्षिक";
+"month" = "महीना";
+"year" = "वर्ष";
+
+/* Actions & Buttons */
+"view_detailed_report" = "विस्तृत रिपोर्ट देखें";
+
+/* Results */
+"borrowing_power" = "उधार क्षमता";
+"total_tax_fees" = "कुल कर और शुल्क";
+
+/* Sections */
+"loan_summary" = "ऋण सारांश";
+"amortization_schedule" = "परिशोधन अनुसूची";
+"monthly_escrow" = "मासिक एस्क्रो";
+"payment_breakdown" = "भुगतान विवरण";
+"show_all" = "सभी दिखाएं";
+"view_more" = "और देखें";
+"interest" = "ब्याज";
+"balance" = "शेष";
+
+/* Export */
+"share_as_pdf" = "PDF के रूप में साझा करें";
+"share_as_excel" = "Excel के रूप में साझा करें";
+
+/* Stamp Duty Calculator */
+"custom_tax_rate" = "कस्टम कर दर";
+"calculation_rule" = "गणना नियम";
+"tax_rate_percent" = "कर दर (%)";
+"tax_amount" = "कर राशि";
+"flat_fee_amount" = "फ्लैट शुल्क राशि";
+"per_unit_value" = "प्रति इकाई मूल्य";
+"calculating_as" = "गणना के रूप में";
+"for_every" = "प्रत्येक के लिए";
+
+/* Loan Comparison */
+"loan_option_1" = "ऋण विकल्प 1";
+"loan_option_2" = "ऋण विकल्प 2";
+"amount" = "राशि";
+"rate_percent" = "दर (%)";
+"option_1" = "विकल्प 1";
+"option_2" = "विकल्प 2";
+"difference_in_total" = "कुल लागत में अंतर";
+"total" = "कुल";
+
+/* Extra Payment */
+"see_interest_save" = "देखें आप कितना ब्याज बचाते हैं!";
+
+/* Payment Frequency */
+"frequency" = "आवृत्ति";
+"share" = "टेक्स्ट के रूप में साझा करें";
+
+/* Export & PDF/CSV Labels */
+"generated_by" = "द्वारा उत्पन्न";
+"loan_analysis_report" = "ऋण विश्लेषण रिपोर्ट";
+"summary" = "सारांश";
+"type" = "प्रकार";
+"down_payment" = "डाउन पेमेंट";
+"trade_in_value" = "पुरानी गाड़ी की कीमत";
+"sales_tax" = "बिक्री कर";
+"registration_fees" = "पंजीकरण शुल्क";
+"property_tax_monthly" = "संपत्ति कर (मासिक)";
+"home_insurance_monthly" = "गृह बीमा (मासिक)";
+"hoa_fees_monthly" = "HOA शुल्क (मासिक)";
+"eligibility_analysis" = "पात्रता विश्लेषण";
+"monthly_income" = "मासिक आय";
+"max_affordable_emi" = "अधिकतम ईएमआई";
+"report" = "रिपोर्ट";
+"date" = "तारीख";
+"term" = "अवधि";
+"rate" = "दर";
+"tax" = "कर";
+"per_month" = "/माह";
+"months_short" = "महीने";
+"years_short" = "वर्ष";
+
+/* Tax Calculation Types */
+"percentage" = "प्रतिशत (%)";
+"amount_per_unit" = "प्रति इकाई राशि";
+"flat_fee" = "निश्चित शुल्क";
+
+/* Stamp Duty Basis Descriptions */
+"stamp_duty_basis_usa" = "संपत्ति हस्तांतरण कर (देश के अनुसार भिन्न).\n• USA राज्य के अनुसार भिन्न.\n• आमतौर पर 0.01% से 4%.\n• कुछ राज्यों में कोई हस्तांतरण कर नहीं है.";
+"stamp_duty_basis_canada" = "भूमि हस्तांतरण कर.\n• संघीय: कोई संघीय कर नहीं.\n• प्रांतीय: व्यापक रूप से भिन्न.\n• पहली बार खरीदारों को छूट मिल सकती है.";
+"stamp_duty_basis_mexico" = "Impuesto sobre Adquisición de Inmuebles.\n• आमतौर पर 2% से 5%.\n• राज्य के अनुसार भिन्न.\n• नोटरी शुल्क शामिल हो सकता है.";
+"stamp_duty_basis_india" = "स्टाम्प शुल्क और पंजीकरण.\n• रेंज: 3% से 7% (राज्य के अनुसार भिन्न).\n• पंजीकरण शुल्क: ~1% अतिरिक्त.\n• महिलाओं को कुछ राज्यों में छूट मिल सकती है.";
+"stamp_duty_basis_indonesia" = "BPHTB (हस्तांतरण कर).\n• फॉर्मूला: (संपत्ति मूल्य - NPOPTKP) * 5%.\n• NPOPTKP: कर-मुक्त सीमा.\n• सभी हस्तांतरणों के लिए अनिवार्य.";
+"stamp_duty_basis_uk" = "SDLT (स्टाम्प शुल्क).\n• पहले £250,000 पर 0%.\n• £250,001 - £925,000 पर 5%.\n• £925,001 - £1.5M पर 10%.\n• £1.5M से ऊपर 12%.";
+"stamp_duty_basis_australia" = "राज्य-आधारित हस्तांतरण शुल्क.\n• रेंज: लगभग 1.25% से 5.5%.\n• NSW: पहली बार खरीदारों के लिए $800k छूट.\n• राज्य के अनुसार भिन्न.";
+"stamp_duty_basis_germany" = "Grunderwerbsteuer (संपत्ति हस्तांतरण कर).
+• दर: 3.5% से 6.5% (राज्य के अनुसार).
+• बवेरिया और सैक्सोनी: 3.5%. बर्लिन और हेसे: 6%.
+• ऐप 5% औसत उपयोग करता है.";
+"stamp_duty_basis_france" = "Droits de Mutation (À Titre Onéreux).
+• दर: ≈5.806% मौजूदा संपत्तियों के लिए.
+• विभाग, राज्य और नगर कर शामिल.
+• नई इमारत: TVA (20%) हस्तांतरण कर की जगह.";
+
+/* Stamp Duty Example Text */
+"example_florida_tax" = "उदाहरण: फ्लोरिडा के लिए, 'कर राशि' में %@ और 'प्रति इकाई मूल्य' में %@ दर्ज करें।";
+"calculating_as_prefix" = "गणना के रूप में";
+"property_value" = "संपत्ति मूल्य";
+
+/* Formula/Calculation Logic */
+"calculation_logic" = "गणना तर्क";
+"formula_tax_bands" = "राज्य/राष्ट्रीय कर स्तरों के आधार पर गणना की गई।";
+
+/* Calculator Formulas */
+"formula_emi" = "M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1 ]";
+"formula_auto" = "मूलधन = (कीमत + कर + शुल्क) - डाउन पेमेंट - एक्सचेंज";
+"formula_home" = "कुल = मूलधन + ब्याज + कर + बीमा";
+"formula_student" = "किसी भी पूंजीकृत ब्याज सहित परिशोधन।";
+"formula_eligibility" = "(सकल आय * 0.28) - मौजूदा मासिक ऋण";
+"formula_reverse" = "PV = PMT * [(1 - (1 + i)^-n) / i]";
+"formula_comparison" = "दो मानक परिशोधन परिणामों की तुलना।";
+
+/* Ads & Coins */
+"watch_ad_unlock" = "अनलॉक करने के लिए एक छोटा वीडियो देखें";
+"earn_coins" = "%d सिक्के कमाएं";
+"spend_coins" = "%d सिक्के खर्च करें";
+"coin_balance" = "सिक्के";
+"not_enough_coins" = "पर्याप्त सिक्के नहीं हैं";
+"earn_more_coins" = "और सिक्के कमाएं";
+"earn_coins_button" = "सिक्के कमाने के लिए विज्ञापन देखें";
+"ad_label" = "विज्ञापन";
+"full_schedule_locked" = "सभी %d महीने देखने के लिए एक छोटा वीडियो देखें";
+"full_schedule_unlock" = "पूर्ण परिशोधन अनुसूची देखें";
+"download_report" = "रिपोर्ट डाउनलोड करें";
+"free_preview" = "पहले 60 महीने दिखाए जा रहे हैं";
+"starting_bonus" = "स्वागत है! आपको %d मुफ्त सिक्के मिले";
+"watch_ad_for_coins" = "सिक्के कमाने और अपनी रिपोर्ट डाउनलोड करने के लिए एक छोटा वीडियो देखें।";
+"cancel" = "रद्द करें";
+"your_coins" = "आपके सिक्के";
+"coin_pricing" = "सिक्कों से क्या खरीद सकते हैं";
+"pdf_report" = "PDF रिपोर्ट";
+"csv_report" = "CSV / Excel रिपोर्ट";
+"coin_info_text" = "छोटे वीडियो देखकर सिक्के कमाए जाते हैं। इनका उपयोग विस्तृत रिपोर्ट डाउनलोड करने के लिए किया जा सकता है।";
+"coin_wallet" = "सिक्का बटुआ";
+
+/* Appearance */
+"appearance" = "थीम";
+"appearance_system" = "सिस्टम";
+"appearance_light" = "लाइट";
+"appearance_dark" = "डार्क";
+
+/* Feature Tour */
+"tour_calculators_title" = "सभी कैलकुलेटर एक जगह";
+"tour_calculators_subtitle" = "ईएमआई, होम, ऑटो, शिक्षा ऋण और अधिक — देश के नियमों के अनुसार।";
+"tour_analysis_title" = "विस्तृत विश्लेषण";
+"tour_analysis_subtitle" = "सुंदर चार्ट, परिशोधन अनुसूची और PDF या CSV में निर्यात करें।";
+"tour_coins_title" = "कमाएं और डाउनलोड करें";
+"tour_coins_subtitle" = "सिक्के कमाने और विस्तृत रिपोर्ट डाउनलोड करने के लिए एक छोटा वीडियो देखें।";
+"skip" = "छोड़ें";
+"next" = "अगला";
+"get_started" = "शुरू करें";
+
+/* Authentication */
+"account" = "खाता";
+"sign_in" = "साइन इन";
+"sign_up" = "साइन अप";
+"sign_out" = "साइन आउट";
+"sign_in_apple" = "Apple से साइन इन";
+"sign_in_google" = "Google से साइन इन";
+"sign_in_email" = "ईमेल से साइन इन";
+"sign_up_apple" = "Apple से साइन अप";
+"sign_up_google" = "Google से साइन अप";
+"sign_up_email" = "ईमेल से साइन अप";
+"sign_in_subtitle" = "अपने डेटा को उपकरणों के बीच सिंक करें और क्लाउड सुविधाएं अनलॉक करें।";
+"sign_in_benefits" = "सिक्के और गणनाएँ उपकरणों में सिंक करें";
+"continue_as_guest" = "अतिथि के रूप में जारी रखें";
+"create_account" = "खाता बनाएं";
+"create_account_subtitle" = "अपनी गणनाएं सहेजने और उपकरणों में सिंक करने के लिए साइन अप करें।";
+"welcome_back" = "वापस स्वागत है";
+"email_placeholder" = "ईमेल पता";
+"password_placeholder" = "पासवर्ड (कम से कम 6 अक्षर)";
+"already_have_account" = "पहले से खाता है? साइन इन करें";
+"already_have_account_short" = "खाता है? साइन इन करें";
+"dont_have_account" = "खाता नहीं है? साइन अप करें";
+"dont_have_account_short" = "खाता नहीं है? साइन अप करें";
+"forgot_password" = "पासवर्ड भूल गए?";
+"reset_password" = "पासवर्ड रीसेट करें";
+"send_reset_link" = "रीसेट लिंक भेजें";
+"check_email" = "अपना ईमेल जांचें";
+"reset_link_sent" = "पासवर्ड रीसेट लिंक आपके ईमेल पर भेजा गया है।";
+"profile" = "प्रोफ़ाइल";
+"account_stats" = "खाता आँकड़े";
+"calculations_made" = "गणनाएँ की गईं";
+"delete_account" = "खाता हटाएं";
+"delete_account_confirm" = "क्या आप सुनिश्चित हैं? यह क्रिया पूर्ववत नहीं की जा सकती। आपका सारा डेटा स्थायी रूप से हटा दिया जाएगा।";
+"sign_out_confirm" = "क्या आप सुनिश्चित हैं कि आप साइन आउट करना चाहते हैं?";
+
+/* Auth Errors */
+"error_invalid_credentials" = "आपके द्वारा दर्ज किया गया ईमेल या पासवर्ड गलत है।";
+"error_email_in_use" = "यह ईमेल पहले से पंजीकृत है। साइन इन करने का प्रयास करें।";
+"error_weak_password" = "पासवर्ड बहुत कमजोर है। कृपया कम से कम 6 अक्षरों का उपयोग करें।";
+"error_rate_limit" = "बहुत अधिक प्रयास। कृपया बाद में पुनः प्रयास करें।";
+"error_network" = "नेटवर्क में त्रुटि। कृपया अपना कनेक्शन जांचें।";
+
+/* ResultsView – Previously Hardcoded Strings */
+"gross_monthly_income" = "सकल मासिक आय";
+"max_emi_allowed" = "अधिकतम अनुमत ईएमआई (28%)";
+"existing_monthly_debts" = "मौजूदा मासिक इल्न";
+"net_monthly_for_loan" = "ऋण के लिए नेट मासिक";
+"tax_breakdown" = "कर विवरण";
+"applied_custom_rate" = "कस्टम दर लागू";
+"calculation_basis" = "गणना आधार";
+"vehicle_details" = "वाहन विवरण";
+"rv_details" = "आरवी विवरण";
+"student_loan_details" = "शिक्षा ऋण विवरण";
+"savings_achievement" = "बचत उपलब्धि";
+"total_saved_label" = "कुल बचत:";
+"time_saved_label" = "समय बचत:";
+"vehicle_price" = "वाहन कीमत";
+"tuition_amount" = "शिक्षा शुल्क";
+"estimated_stamp_duty" = "अनुमानित स्टांप शुल्क";
+"generated_by_app" = "LoanPro 2025 द्वारा आदित";
+"eligibility_analysis_title" = "पात्रता विश्लेषण";

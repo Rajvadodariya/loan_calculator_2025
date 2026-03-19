@@ -1,0 +1,73 @@
+{
+  "identifier" : "B7D1A2C3",
+  "nonRenewingSubscriptions" : [
+  ],
+  "products" : [
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_type" : "settings"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "7E8F9A0B",
+      "localizations" : [
+      ],
+      "name" : "LoanPro Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+          ],
+          "codeOffers" : [
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "C1D2E3F4",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly access to all Pro features",
+              "displayName" : "Monthly Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "loanpro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "LoanPro Monthly",
+          "subscriptionGroupID" : "7E8F9A0B",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+          ],
+          "codeOffers" : [
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "B5C6D7E8",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Yearly access to all Pro features",
+              "displayName" : "Yearly Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "loanpro_yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "LoanPro Yearly",
+          "subscriptionGroupID" : "7E8F9A0B",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

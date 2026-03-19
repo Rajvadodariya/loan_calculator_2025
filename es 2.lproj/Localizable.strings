@@ -1,0 +1,99 @@
+/* Spanish - Español */
+
+/* Navigation & Titles */
+"welcome" = "Bienvenido a LoanPro 2025";
+"select_country" = "Seleccionar País";
+"select_country_subtitle" = "Seleccione su país para aplicar las regulaciones bancarias y fiscales locales.";
+"app_language" = "Idioma de la App";
+"continue" = "Continuar";
+"settings" = "Configuración e Info";
+"analysis" = "Análisis";
+"home" = "Inicio";
+
+/* Calculator Types */
+"emi_calculator" = "Calculadora EMI";
+"auto_loan" = "Préstamo de Auto";
+"home_loan" = "Préstamo Hipotecario";
+"personal_loan" = "Préstamo Personal";
+"student_loan" = "Préstamo Estudiantil";
+"fha_loan" = "Préstamo FHA";
+"eligibility" = "Elegibilidad";
+"stamp_duty" = "Impuesto de Timbre";
+"reverse_calc" = "Calculadora Inversa";
+"comparison" = "Comparar Préstamos";
+"rv_loan" = "Préstamo para RV";
+
+/* Input Fields */
+"loan_amount" = "Monto del Préstamo";
+"interest_rate" = "Tasa de Interés (%)";
+"loan_term" = "Plazo del Préstamo";
+"down_payment" = "Enganche";
+"trade_in_value" = "Valor de Intercambio";
+"sales_tax" = "Impuesto (%)";
+"registration_fees" = "Gastos de Registro";
+"property_tax" = "Impuesto Predial";
+"home_insurance" = "Seguro de Hogar";
+"hoa_fees" = "Cuotas HOA";
+"grace_period" = "Período de Gracia";
+"annual_income" = "Ingreso Anual Bruto";
+"monthly_debts" = "Deudas Mensuales";
+"property_value" = "Valor de la Propiedad";
+"extra_payment" = "Pago Extra Mensual";
+"monthly_budget" = "Presupuesto Mensual";
+
+/* Results */
+"monthly_payment" = "Pago Mensual";
+"total_interest" = "Interés Total";
+"total_payment" = "Pago Total";
+"total_tax_fees" = "Impuestos/Comisiones";
+"payoff_date" = "Fecha de Liquidación";
+"borrowing_power" = "Capacidad de Crédito";
+"interest_saved" = "Interés Ahorrado";
+"time_saved" = "Tiempo Ahorrado";
+
+/* Sections */
+"loan_summary" = "Resumen del Préstamo";
+"amortization_schedule" = "Tabla de Amortización";
+"monthly_escrow" = "Gastos Mensuales";
+"payment_breakdown" = "Desglose de Pagos";
+"preferences" = "Preferencias";
+"support_feedback" = "Soporte y Comentarios";
+"legal" = "Legal";
+"app_info" = "Info de la App";
+
+/* Actions */
+"calculate" = "Calcular";
+"view_detailed_report" = "Ver Reporte Detallado";
+"share" = "Compartir";
+"share_as_image" = "Compartir como Imagen";
+"share_as_pdf" = "Como PDF";
+"share_as_excel" = "Como Excel (CSV)";
+"share_full_report" = "Compartir Reporte Completo";
+"share_amortization" = "Compartir Amortización";
+
+/* Settings */
+"country" = "País";
+"language" = "Idioma";
+"how_to_use" = "Guía de Uso";
+"get_support" = "Obtener Soporte";
+"share_app" = "Compartir App";
+"rate_app" = "Calificar en App Store";
+"privacy_policy" = "Política de Privacidad";
+"terms_of_service" = "Términos de Servicio";
+"version" = "Versión";
+
+/* Units */
+"years" = "Años";
+"months" = "Meses";
+"monthly" = "Mensual";
+"yearly" = "Anual";
+"bi_weekly" = "Quincenal";
+
+/* Misc */
+"principal" = "Capital";
+"interest" = "Interés";
+"balance" = "Saldo";
+"month" = "Mes";
+"year" = "Año";
+"show_all" = "Ver Todo";
+"view_more" = "Ver Más";

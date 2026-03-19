@@ -1,0 +1,99 @@
+/* Italian - Italiano */
+
+/* Navigation & Titles */
+"welcome" = "Benvenuto in LoanPro 2025";
+"select_country" = "Seleziona Paese";
+"select_country_subtitle" = "Seleziona il tuo paese per applicare le normative bancarie e fiscali locali.";
+"app_language" = "Lingua dell'App";
+"continue" = "Continua";
+"settings" = "Impostazioni & Info";
+"analysis" = "Analisi";
+"home" = "Home";
+
+/* Calculator Types */
+"emi_calculator" = "Calcolatore EMI";
+"auto_loan" = "Prestito Auto";
+"home_loan" = "Mutuo Casa";
+"personal_loan" = "Prestito Personale";
+"student_loan" = "Prestito Studenti";
+"fha_loan" = "Prestito FHA";
+"eligibility" = "Calcolo Idoneità";
+"stamp_duty" = "Imposta di Bollo";
+"reverse_calc" = "Calcolatore Inverso";
+"comparison" = "Confronto Prestiti";
+"rv_loan" = "Prestito Camper";
+
+/* Input Fields */
+"loan_amount" = "Importo Prestito";
+"interest_rate" = "Tasso di Interesse (%)";
+"loan_term" = "Durata Prestito";
+"down_payment" = "Anticipo";
+"trade_in_value" = "Valore Permuta";
+"sales_tax" = "IVA (%)";
+"registration_fees" = "Spese di Registrazione";
+"property_tax" = "Imposta sulla Proprietà";
+"home_insurance" = "Assicurazione Casa";
+"hoa_fees" = "Spese Condominiali";
+"grace_period" = "Periodo di Grazia";
+"annual_income" = "Reddito Annuo Lordo";
+"monthly_debts" = "Debiti Mensili";
+"property_value" = "Valore Immobile";
+"extra_payment" = "Pagamento Extra Mensile";
+"monthly_budget" = "Budget Mensile";
+
+/* Results */
+"monthly_payment" = "Rata Mensile";
+"total_interest" = "Interessi Totali";
+"total_payment" = "Pagamento Totale";
+"total_tax_fees" = "Tasse/Commissioni Totali";
+"payoff_date" = "Data di Estinzione";
+"borrowing_power" = "Capacità di Prestito";
+"interest_saved" = "Interessi Risparmiati";
+"time_saved" = "Tempo Risparmiato";
+
+/* Sections */
+"loan_summary" = "Riepilogo Prestito";
+"amortization_schedule" = "Piano di Ammortamento";
+"monthly_escrow" = "Deposito Mensile";
+"payment_breakdown" = "Dettaglio Pagamenti";
+"preferences" = "Preferenze";
+"support_feedback" = "Supporto & Feedback";
+"legal" = "Legale";
+"app_info" = "Info App";
+
+/* Actions */
+"calculate" = "Calcola";
+"view_detailed_report" = "Visualizza Report Dettagliato";
+"share" = "Condividi";
+"share_as_image" = "Condividi come Immagine";
+"share_as_pdf" = "Come PDF";
+"share_as_excel" = "Come Excel (CSV)";
+"share_full_report" = "Condividi Report Completo";
+"share_amortization" = "Condividi Ammortamento";
+
+/* Settings */
+"country" = "Paese";
+"language" = "Lingua";
+"how_to_use" = "Guida all'Uso";
+"get_support" = "Ottieni Supporto";
+"share_app" = "Condividi App";
+"rate_app" = "Valuta su App Store";
+"privacy_policy" = "Politica sulla Privacy";
+"terms_of_service" = "Termini di Servizio";
+"version" = "Versione";
+
+/* Units */
+"years" = "Anni";
+"months" = "Mesi";
+"monthly" = "Mensile";
+"yearly" = "Annuale";
+"bi_weekly" = "Bisettimanale";
+
+/* Misc */
+"principal" = "Capitale";
+"interest" = "Interessi";
+"balance" = "Saldo";
+"month" = "Mese";
+"year" = "Anno";
+"show_all" = "Mostra Tutto";
+"view_more" = "Vedi Altro";

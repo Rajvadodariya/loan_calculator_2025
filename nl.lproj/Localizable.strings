@@ -1,0 +1,351 @@
+"welcome" = "Welkom";
+"select_country" = "Selecteer uw land";
+"select_country_subtitle" = "Voor nauwkeurige schattingen";
+"app_language" = "App-taal";
+"continue" = "Doorgaan";
+"settings" = "Instellingen";
+"analysis" = "Analyse";
+"home" = "Home";
+
+/* Calculator Types */
+"emi_calculator" = "EMI-calculator";
+"auto_loan" = "Auto / Voertuig";
+"home_loan" = "Huis / Hypotheek";
+"personal_loan" = "Persoonlijke lening";
+"student_loan" = "Studielening";
+"fha_loan" = "FHA-lening (USA)";
+"eligibility" = "Leencapaciteit";
+"stamp_duty" = "Overdrachtsbelasting";
+"reverse_calc" = "Omgekeerde berekening";
+"comparison" = "Leningvergelijking";
+"rv_loan" = "RV-lening";
+
+/* Input Fields */
+"loan_amount" = "Leenbedrag";
+"interest_rate" = "Rentepercentage";
+"loan_term" = "Looptijd";
+"down_payment" = "Aanbetaling";
+"trade_in_value" = "Inruilwaarde";
+"sales_tax" = "Btw";
+"registration_fees" = "Registratiekosten";
+"property_tax" = "Onroerendezaakbelasting";
+"home_insurance" = "Opstalverzekering";
+"monthly_payment" = "Maandelijkse betaling";
+"years" = "Jaren";
+"months" = "Maanden";
+
+/* Results */
+"calculate" = "Berekenen";
+"monthly_emi" = "Maandelijkse EMI";
+"total_interest" = "Totale rente";
+"total_payment" = "Totale betaling";
+"payoff_date" = "Aflossingsdatum";
+"interest_saved" = "Bespaarde rente";
+"time_saved" = "Bespaarde tijd";
+"principal" = "Hoofdsom";
+
+/* How to Use */
+"how_to_use" = "Handleiding";
+"understanding_loan_title" = "Uw lening begrijpen";
+"understanding_loan_para" = "Deze gids helpt u de invoer te begrijpen die nodig is voor nauwkeurige berekeningen.";
+"advanced_tools_title" = "Geavanceerde tools";
+"country_rules_title" = "Landspecifieke regels";
+"where_to_find_title" = "Waar informatie te vinden";
+"general_inputs" = "Algemene invoer";
+
+/* Guidance / Info Page */
+"guidance_for" = "Handleiding voor %@";
+"key_inputs" = "Belangrijke invoer";
+"expert_tips" = "Expert tips";
+"calculation_logic" = "Berekeningslogica";
+"where_to_find_label" = "Waar te vinden: %@";
+"done" = "Gereed";
+
+/* Descriptions */
+"desc_simple_guidance" = "Algemene calculator voor persoonlijke of ongedekte leningen.";
+"desc_auto_guidance" = "Voertuigfinanciering inclusief inruil en belasting.";
+"desc_rv_guidance" = "Financiering voor recreatievoertuigen.";
+"desc_home_guidance" = "Uitgebreide hypotheekcalculator.";
+"desc_fha_guidance" = "USA-specifieke FHA-hypotheek.";
+
+/* Rules */
+"rules_header" = "Specifieke regels voor %@";
+"tip_total_interest_comp" = "Focus op de totale betaalde rente.";
+
+/* Detailed Sources and Rules */
+"source_loan_amount_usa" = "Te vinden in uw 'Loan Estimate'.";
+"source_loan_amount_india" = "Te vinden in uw 'Sanction Letter'.";
+"source_annual_income_usa" = "Check uw laatste belastingaangifte.";
+"source_annual_income_india" = "Check uw Form 16.";
+"source_financial_statements" = "Check uw financiële overzichten.";
+"source_lender_rates" = "Rentepagina van de geldverstrekker.";
+"source_repayment_schedule" = "Duur van het aflossingsschema.";
+"source_insurance_quote" = "Verzekeringsofferte.";
+"source_budget_analysis" = "Analyse van uw budget.";
+"source_loan_offers" = "Verschillende leningvoorstellen.";
+
+"rule_usa_fha" = "FHA-leningen vereisen MIP.";
+"rule_usa_pmi" = "Conventionele leningen vereisen vaak PMI.";
+"rule_india_gst" = "Gst (18%) is vaak van toepassing op kosten.";
+"rule_uk_sdlt" = "SDLT-drempels variëren.";
+"rule_uk_erc" = "Boetes voor vervroegde aflossing zijn gebruikelijk.";
+"rule_aus_daily_int" = "Rente wordt dagelijks berekend.";
+"rule_aus_lmi" = "LMI geldt als de aanbetaling <20% is.";
+"rule_dti_cap" = "Geldverstrekkers begrenzen woonlasten op 30%.";
+"rule_progressive_rates" = "Tarieven zijn progressief.";
+
+"tip_student_interest" = "Rente betalen tijdens de studie bespaart duizenden.";
+"tip_student_forgiveness" = "Check op kwijtscheldingsprogramma's.";
+"tip_dti_reduction" = "Schulden verlagen verhoogt leencapaciteit.";
+"tip_concessions" = "Check op mogelijke kortingen.";
+"tip_lower_payment_cost" = "Lage lasten kunnen op lange termijn duurder zijn.";
+
+/* Settings Section Headers */
+"support_feedback" = "Ondersteuning & Feedback";
+"legal" = "Juridisch";
+"app_info" = "App-info";
+"get_support" = "Ondersteuning";
+"share_app" = "App Delen";
+"rate_app" = "App Beoordelen";
+"privacy_policy" = "Privacybeleid";
+"terms_of_service" = "Gebruiksvoorwaarden";
+"version" = "Versie";
+"country" = "Land";
+"language" = "Taal";
+"preferences" = "Voorkeuren";
+
+/* Share Menu */
+"share_amortization" = "Aflossingschema delen";
+"share_full_report" = "Volledig rapport delen";
+"share_as_image" = "Delen als afbeelding";
+
+/* Additional Input Fields */
+"extra_payment" = "Extra Aflossing";
+"grace_period" = "Aflossingsvrije Periode";
+"annual_income" = "Jaarinkomen";
+"monthly_debts" = "Maandelijkse Schulden";
+"monthly_budget" = "Maandelijks Budget";
+"property_value" = "Woningwaarde";
+"hoa_fees" = "VvE-kosten";
+
+/* Units */
+"monthly" = "Maandelijks";
+"yearly" = "Jaarlijks";
+"bi_weekly" = "Tweewekelijks";
+"month" = "Maand";
+"year" = "Jaar";
+
+/* Actions & Buttons */
+"view_detailed_report" = "Bekijk Gedetailleerd Rapport";
+
+/* Results */
+"borrowing_power" = "Leencapaciteit";
+"total_tax_fees" = "Totaal Belastingen & Kosten";
+
+/* Sections */
+"loan_summary" = "Leningsoverzicht";
+"amortization_schedule" = "Aflossingsschema";
+"monthly_escrow" = "Maandelijkse Reserve";
+"payment_breakdown" = "Betalingsoverzicht";
+"show_all" = "Alles Tonen";
+"view_more" = "Meer Bekijken";
+"interest" = "Rente";
+"balance" = "Restant";
+
+/* Export */
+"share_as_pdf" = "Delen als PDF";
+"share_as_excel" = "Delen als Excel";
+
+/* Stamp Duty Calculator */
+"custom_tax_rate" = "Aangepast Belastingtarief";
+"calculation_rule" = "Berekeningsregel";
+"tax_rate_percent" = "Belastingtarief (%)";
+"tax_amount" = "Belastingbedrag";
+"flat_fee_amount" = "Vast Bedrag";
+"per_unit_value" = "Waarde per Eenheid";
+"calculating_as" = "Berekening als";
+"for_every" = "voor elke";
+
+/* Loan Comparison */
+"loan_option_1" = "Leningoptie 1";
+"loan_option_2" = "Leningoptie 2";
+"amount" = "Bedrag";
+"rate_percent" = "Rente (%)";
+"option_1" = "Optie 1";
+"option_2" = "Optie 2";
+"difference_in_total" = "Verschil in Totale Kosten";
+"total" = "Totaal";
+
+/* Extra Payment */
+"see_interest_save" = "Zie hoeveel rente u bespaart!";
+
+/* Payment Frequency */
+"frequency" = "Frequentie";
+"share" = "Delen als tekst";
+
+/* Export & PDF/CSV Labels */
+"generated_by" = "Gegenereerd door";
+"loan_analysis_report" = "Lening Analyse Rapport";
+"summary" = "Samenvatting";
+"type" = "Type";
+"down_payment" = "Aanbetaling";
+"trade_in_value" = "Inruilwaarde";
+"sales_tax" = "Verkoopbelasting";
+"registration_fees" = "Registratiekosten";
+"property_tax_monthly" = "Onroerendgoedbelasting (Maandelijks)";
+"home_insurance_monthly" = "Woonverzekering (Maandelijks)";
+"hoa_fees_monthly" = "VvE-kosten (Maandelijks)";
+"eligibility_analysis" = "Geschiktheidsanalyse";
+"monthly_income" = "Maandelijks Inkomen";
+"max_affordable_emi" = "Max. Betaalbare EMI";
+"report" = "Rapport";
+"date" = "Datum";
+"term" = "Looptijd";
+"rate" = "Tarief";
+"tax" = "Belasting";
+"per_month" = "/mnd";
+"months_short" = "maanden";
+"years_short" = "jaar";
+
+/* Tax Calculation Types */
+"percentage" = "Percentage (%)";
+"amount_per_unit" = "Bedrag per Eenheid";
+"flat_fee" = "Vast Bedrag";
+
+/* Stamp Duty Basis Descriptions */
+"stamp_duty_basis_usa" = "Overdrachtsbelasting (varieert per land).\n• VS varieert per staat.\n• Doorgaans 0.01% tot 4%.\n• Sommige staten hebben geen overdrachtsbelasting.";
+"stamp_duty_basis_canada" = "Grondoverdrachtsbelasting.\n• Federaal: Geen federale belasting.\n• Provinciaal: Varieert sterk.\n• Eerste kopers kunnen kortingen ontvangen.";
+"stamp_duty_basis_mexico" = "Impuesto sobre Adquisición de Inmuebles.\n• Doorgaans 2% tot 5%.\n• Varieert per staat.\n• Kan notariskosten omvatten.";
+"stamp_duty_basis_india" = "Zegelbelasting en Registratie.\n• Bereik: 3% tot 7% (varieert per staat).\n• Registratiekosten: ~1% extra.\n• Vrouwen kunnen kortingen ontvangen.";
+"stamp_duty_basis_indonesia" = "BPHTB (Overdrachtsbelasting).\n• Formule: (Waarde Eigendom - NPOPTKP) * 5%.\n• NPOPTKP: Belastingvrije drempel.\n• Verplicht voor alle overdrachten.";
+"stamp_duty_basis_uk" = "SDLT (Zegelbelasting).\n• 0% op de eerste £250,000.\n• 5% op £250,001 - £925,000.\n• 10% op £925,001 - £1.5M.\n• 12% boven £1.5M.";
+"stamp_duty_basis_australia" = "Staatsoverdrachtsbelasting.\n• Bereik: Ongeveer 1.25% tot 5.5%.\n• NSW: $800k vrijstelling voor eerste kopers.\n• Varieert per staat.";
+"stamp_duty_basis_germany" = "Grunderwerbsteuer (Overdrachtsbelasting).
+• Tarief: 3,5% tot 6,5% (varieert per deelstaat).
+• Beieren en Saksen: 3,5%. Berlijn en Hessen: 6%.
+• App gebruikt 5% gemiddelde.";
+"stamp_duty_basis_france" = "Droits de Mutation (À Titre Onéreux).
+• Tarief: ≈5,806% voor bestaande woningen.
+• Omvat departementale, staats- en gemeentebelasting.
+• Nieuwbouw: TVA (20%) vervangt overdrachtsbelasting.";
+
+/* Stamp Duty Example Text */
+"example_florida_tax" = "Voorbeeld: Voor Florida voer %@ in bij 'Belastingbedrag' en %@ bij 'Waarde per Eenheid'.";
+"calculating_as_prefix" = "Berekening als";
+"property_value" = "woningwaarde";
+
+/* Formula/Calculation Logic */
+"calculation_logic" = "Berekeningslogica";
+"formula_tax_bands" = "Berekend op basis van staats-/nationale belastingschijven.";
+
+/* Calculator Formulas */
+"formula_emi" = "M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1 ]";
+"formula_auto" = "Hoofdsom = (Prijs + Belasting + Kosten) - Aanbetaling - Inruil";
+"formula_home" = "Totaal = Hoofdsom + Rente + Belasting + Verzekering";
+"formula_student" = "Aflossing inclusief gekapitaliseerde rente.";
+"formula_eligibility" = "(Bruto Inkomen * 0,28) - Bestaande Maandelijkse Schulden";
+"formula_reverse" = "HW = PMT * [(1 - (1 + i)^-n) / i]";
+"formula_comparison" = "Vergelijking van twee standaard aflossingsresultaten.";
+
+/* Ads & Coins */
+"watch_ad_unlock" = "Bekijk een korte video om te ontgrendelen";
+"earn_coins" = "Verdien %d munten";
+"spend_coins" = "Besteed %d munten";
+"coin_balance" = "Munten";
+"not_enough_coins" = "Niet genoeg munten";
+"earn_more_coins" = "Verdien meer munten";
+"earn_coins_button" = "Bekijk advertentie voor munten";
+"ad_label" = "Advertentie";
+"full_schedule_locked" = "Bekijk een korte video om alle %d maanden te zien";
+"full_schedule_unlock" = "Bekijk het volledige aflossingsschema";
+"download_report" = "Rapport downloaden";
+"free_preview" = "Eerste 60 maanden getoond";
+"starting_bonus" = "Welkom! U heeft %d gratis munten ontvangen";
+"watch_ad_for_coins" = "Bekijk een korte video om munten te verdienen en uw rapport te downloaden.";
+"cancel" = "Annuleren";
+"your_coins" = "Uw munten";
+"coin_pricing" = "Wat munten kunnen kopen";
+"pdf_report" = "PDF-rapport";
+"csv_report" = "CSV / Excel-rapport";
+"coin_info_text" = "Munten worden verdiend door korte video's te bekijken. Ze kunnen worden gebruikt om gedetailleerde rapporten te downloaden.";
+"coin_wallet" = "Muntenportemonnee";
+
+/* Appearance */
+"appearance" = "Weergave";
+"appearance_system" = "Systeem";
+"appearance_light" = "Licht";
+"appearance_dark" = "Donker";
+
+/* Feature Tour */
+"tour_calculators_title" = "Alles-in-Één Rekenmachines";
+"tour_calculators_subtitle" = "EMI, Huis, Auto, Studie en meer — met landspecifieke regels.";
+"tour_analysis_title" = "Gedetailleerde Analyse";
+"tour_analysis_subtitle" = "Grafieken, aflossingsschema's en exporteer als PDF of CSV.";
+"tour_coins_title" = "Verdien & Download";
+"tour_coins_subtitle" = "Bekijk een korte video om munten te verdienen en rapporten te downloaden.";
+"skip" = "Overslaan";
+"next" = "Volgende";
+"get_started" = "Aan de slag";
+
+/* Authentication */
+"account" = "Account";
+"sign_in" = "Inloggen";
+"sign_up" = "Registreren";
+"sign_out" = "Uitloggen";
+"sign_in_apple" = "Inloggen met Apple";
+"sign_in_google" = "Inloggen met Google";
+"sign_in_email" = "Inloggen met e-mail";
+"sign_up_apple" = "Registreren met Apple";
+"sign_up_google" = "Registreren met Google";
+"sign_up_email" = "Registreren met e-mail";
+"sign_in_subtitle" = "Synchroniseer uw gegevens tussen apparaten en ontgrendel cloudfuncties.";
+"sign_in_benefits" = "Synchroniseer munten & berekeningen tussen apparaten";
+"continue_as_guest" = "Doorgaan als Gast";
+"create_account" = "Account Aanmaken";
+"create_account_subtitle" = "Registreer om berekeningen op te slaan en te synchroniseren tussen apparaten.";
+"welcome_back" = "Welkom Terug";
+"email_placeholder" = "E-mailadres";
+"password_placeholder" = "Wachtwoord (min 6 tekens)";
+"already_have_account" = "Al een account? Inloggen";
+"already_have_account_short" = "Al een account? Inloggen";
+"dont_have_account" = "Geen account? Registreren";
+"dont_have_account_short" = "Nog geen account? Registreren";
+"forgot_password" = "Wachtwoord vergeten?";
+"reset_password" = "Wachtwoord Resetten";
+"send_reset_link" = "Link Verzenden";
+"check_email" = "Controleer uw E-mail";
+"reset_link_sent" = "Een link om uw wachtwoord te resetten is verzonden naar uw e-mail.";
+"profile" = "Profiel";
+"account_stats" = "Accountstatistieken";
+"calculations_made" = "Berekeningen Gedaan";
+"delete_account" = "Account Verwijderen";
+"delete_account_confirm" = "Weet u het zeker? Deze actie kan niet ongedaan worden gemaakt. Al uw gegevens worden permanent verwijderd.";
+"sign_out_confirm" = "Weet u zeker dat u wilt uitloggen?";
+
+/* Auth Errors */
+"error_invalid_credentials" = "Het ingevoerde e-mailadres of wachtwoord is onjuist.";
+"error_email_in_use" = "Dit e-mailadres is al geregistreerd. Probeer in te loggen.";
+"error_weak_password" = "Wachtwoord is te zwak. Gebruik minimaal 6 tekens.";
+"error_rate_limit" = "Te veel pogingen. Probeer het later opnieuw.";
+"error_network" = "Netwerkfout. Controleer uw verbinding.";
+
+/* ResultsView – Previously Hardcoded Strings */
+"gross_monthly_income" = "Bruto Maandinkomen";
+"max_emi_allowed" = "Max Maandelijkse EMI Toegestaan (28%)";
+"existing_monthly_debts" = "Bestaande Maandelijkse Schulden";
+"net_monthly_for_loan" = "Netto Maandelijks voor Lening";
+"tax_breakdown" = "Belastingspecificatie";
+"applied_custom_rate" = "Aangepast Tarief Toegepast";
+"calculation_basis" = "Berekeningsbasis";
+"vehicle_details" = "Voertuigdetails";
+"rv_details" = "Camperdetails";
+"student_loan_details" = "Details Studielening";
+"savings_achievement" = "Spaardoelstelling Bereikt";
+"total_saved_label" = "Totaal Bespaard:";
+"time_saved_label" = "Tijd Bespaard:";
+"vehicle_price" = "Voertuigprijs";
+"tuition_amount" = "Studiebedrag";
+"estimated_stamp_duty" = "Geschatte Overdrachtsbelasting";
+"generated_by_app" = "Gegenereerd door LoanPro 2025";
+"eligibility_analysis_title" = "Geschiktheidsanalyse";
+

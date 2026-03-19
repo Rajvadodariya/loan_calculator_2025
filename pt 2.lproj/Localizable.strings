@@ -1,0 +1,99 @@
+/* Portuguese - Português */
+
+/* Navigation & Titles */
+"welcome" = "Bem-vindo ao LoanPro 2025";
+"select_country" = "Selecionar País";
+"select_country_subtitle" = "Selecione seu país para aplicar as regulamentações bancárias e fiscais locais.";
+"app_language" = "Idioma do App";
+"continue" = "Continuar";
+"settings" = "Configurações & Info";
+"analysis" = "Análise";
+"home" = "Início";
+
+/* Calculator Types */
+"emi_calculator" = "Calculadora EMI";
+"auto_loan" = "Empréstimo Auto";
+"home_loan" = "Empréstimo Imobiliário";
+"personal_loan" = "Empréstimo Pessoal";
+"student_loan" = "Empréstimo Estudantil";
+"fha_loan" = "Empréstimo FHA";
+"eligibility" = "Calculadora de Elegibilidade";
+"stamp_duty" = "Imposto de Selo";
+"reverse_calc" = "Calculadora Reversa";
+"comparison" = "Comparação de Empréstimos";
+"rv_loan" = "Empréstimo Autocaravana";
+
+/* Input Fields */
+"loan_amount" = "Valor do Empréstimo";
+"interest_rate" = "Taxa de Juros (%)";
+"loan_term" = "Prazo do Empréstimo";
+"down_payment" = "Entrada";
+"trade_in_value" = "Valor de Troca";
+"sales_tax" = "IVA (%)";
+"registration_fees" = "Taxas de Registro";
+"property_tax" = "Imposto sobre Imóvel";
+"home_insurance" = "Seguro Residencial";
+"hoa_fees" = "Taxas de Condomínio";
+"grace_period" = "Período de Carência";
+"annual_income" = "Renda Anual Bruta";
+"monthly_debts" = "Dívidas Mensais";
+"property_value" = "Valor do Imóvel";
+"extra_payment" = "Pagamento Extra Mensal";
+"monthly_budget" = "Orçamento Mensal";
+
+/* Results */
+"monthly_payment" = "Pagamento Mensal";
+"total_interest" = "Juros Totais";
+"total_payment" = "Pagamento Total";
+"total_tax_fees" = "Impostos/Taxas Totais";
+"payoff_date" = "Data de Quitação";
+"borrowing_power" = "Capacidade de Empréstimo";
+"interest_saved" = "Juros Economizados";
+"time_saved" = "Tempo Economizado";
+
+/* Sections */
+"loan_summary" = "Resumo do Empréstimo";
+"amortization_schedule" = "Tabela de Amortização";
+"monthly_escrow" = "Reserva Mensal";
+"payment_breakdown" = "Detalhamento de Pagamentos";
+"preferences" = "Preferências";
+"support_feedback" = "Suporte & Feedback";
+"legal" = "Legal";
+"app_info" = "Info do App";
+
+/* Actions */
+"calculate" = "Calcular";
+"view_detailed_report" = "Ver Relatório Detalhado";
+"share" = "Compartilhar";
+"share_as_image" = "Compartilhar como Imagem";
+"share_as_pdf" = "Como PDF";
+"share_as_excel" = "Como Excel (CSV)";
+"share_full_report" = "Compartilhar Relatório Completo";
+"share_amortization" = "Compartilhar Amortização";
+
+/* Settings */
+"country" = "País";
+"language" = "Idioma";
+"how_to_use" = "Guia de Uso";
+"get_support" = "Obter Suporte";
+"share_app" = "Compartilhar App";
+"rate_app" = "Avaliar na App Store";
+"privacy_policy" = "Política de Privacidade";
+"terms_of_service" = "Termos de Serviço";
+"version" = "Versão";
+
+/* Units */
+"years" = "Anos";
+"months" = "Meses";
+"monthly" = "Mensal";
+"yearly" = "Anual";
+"bi_weekly" = "Quinzenal";
+
+/* Misc */
+"principal" = "Principal";
+"interest" = "Juros";
+"balance" = "Saldo";
+"month" = "Mês";
+"year" = "Ano";
+"show_all" = "Mostrar Tudo";
+"view_more" = "Ver Mais";

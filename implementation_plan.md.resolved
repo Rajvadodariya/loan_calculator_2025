@@ -1,0 +1,306 @@
+# Phase 2 Implementation Plan — LoanPro 2025
+
+Building on completed Phase 1 (AdMob ads + local coin system). Phase 2 adds user accounts, cloud persistence, saved calculations, and a pro subscription tier.
+
+---
+
+## User Review Required
+
+> [!IMPORTANT]
+> **Supabase Project**: You'll need to create a Supabase project at [supabase.com](https://supabase.com) to get the project URL and anon key. I'll use placeholders during development.
+
+> [!WARNING]
+> **Apple Developer Account**: Sign in with Apple requires an active Apple Developer membership and App ID configuration with the "Sign In with Apple" capability enabled.
+
+> [!CAUTION]
+> **Breaking change to CoinManager**: Phase 2 migrates coin storage from UserDefaults → Supabase. Existing users' coins will be preserved via a one-time migration on first sign-in. If they never sign in, coins stay local.
+
+---
+
+## Milestone Overview
+
+```mermaid
+gantt
+    title Phase 2 Milestones
+    dateFormat X
+    axisFormat %s
+    section M1 - Auth
+    Supabase setup & Auth service     :m1a, 0, 3
+    Sign in with Apple/Google/Email   :m1b, 3, 6
+    Profile UI & guest mode           :m1c, 6, 8
+    section M2 - Cloud Sync
+    Database schema & API             :m2a, 8, 10
+    Coin sync & migration             :m2b, 10, 12
+    section M3 - Saved Calcs
+    Save/load calculations            :m3a, 12, 15
+    History tab & UI                  :m3b, 15, 17
+    section M4 - Pro Tier
+    StoreKit subscription             :m4a, 17, 20
+    Ad removal & premium features     :m4b, 20, 22
+    section M5 - UX Polish
+    Dark mode & accessibility         :m5a, 22, 24
+    Onboarding & rate prompt          :m5b, 24, 25
+```
+
+---
+
+## Milestone 1 — Supabase Authentication
+
+### Infrastructure
+
+#### [NEW] `Services/SupabaseManager.swift`
+- Supabase Swift client initialization with project URL + anon key
+- Shared singleton for all Supabase operations
+- Session management (auto-refresh, token storage)
+
+#### [NEW] `Services/AuthService.swift`
+- Sign in with Apple (using `ASAuthorizationController`)
+- Sign in with Google (using Google Sign-In SDK)
+- Email/Password sign up + sign in
+- Sign out, delete account
+- `@Published var currentUser: User?`
+- `@Published var isAuthenticated: Bool`
+- Guest mode: all features work without auth, data stays local
+
+### UI Components
+
+#### [NEW] `Views/Auth/SignInView.swift`
+- Premium login screen with app branding
+- Three sign-in buttons: Apple (black), Google (white), Email (indigo)
+- "Continue as Guest" option at the bottom
+- Animated background consistent with app theme
+
+#### [NEW] `Views/Auth/EmailAuthView.swift`
+- Email + password form (sign up / sign in toggle)
+- Input validation, error display
+- "Forgot Password" flow via Supabase magic link
+
+#### [NEW] `Views/Profile/ProfileView.swift`
+- User avatar, name, email display
+- Sign-out button
+- "Delete Account" (with confirmation)
+- Coin balance (synced)
+- Saved calculations count
+- Pro status badge
+- Accessible from Settings
+
+### Modified Files
+
+#### [MODIFY] [LoanPro2025App.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/App/LoanPro2025App.swift)
+- Initialize Supabase client on launch
+- Check auth session → show `SignInView` or `HomeView`
+- Pass `AuthService` as environment object
+
+#### [MODIFY] [SettingsView.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/Views/Main/SettingsView.swift)
+- Add "Account" section at top with profile preview
+- Show "Sign In" button if guest, profile card if authenticated
+
+---
+
+## Milestone 2 — Cloud Coin Sync
+
+### Database Schema (Supabase)
+
+```sql
+-- Users table (auto-created by Supabase Auth)
+
+-- User profiles (extended data)
+CREATE TABLE profiles (
+  id UUID REFERENCES auth.users PRIMARY KEY,
+  coin_balance INTEGER DEFAULT 3,
+  is_pro BOOLEAN DEFAULT FALSE,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- Row Level Security
+ALTER TABLE profiles ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Users can read own profile" ON profiles FOR SELECT USING (auth.uid() = id);
+CREATE POLICY "Users can update own profile" ON profiles FOR UPDATE USING (auth.uid() = id);
+```
+
+### Modified Files
+
+#### [MODIFY] [Services/CoinManager.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/Services/CoinManager.swift)
+- Add `syncToCloud()` method — pushes local balance to Supabase
+- Add `fetchFromCloud()` method — pulls balance from Supabase
+- One-time migration: on first sign-in, merge local + cloud coins (take the higher value)
+- Fallback to UserDefaults when offline or not authenticated
+- Real-time subscription to coin balance changes via Supabase Realtime
+
+---
+
+## Milestone 3 — Saved Calculations & History
+
+### Database Schema
+
+```sql
+CREATE TABLE saved_calculations (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  user_id UUID REFERENCES auth.users NOT NULL,
+  name TEXT NOT NULL,
+  calculator_type TEXT NOT NULL,
+  inputs JSONB NOT NULL,
+  result JSONB NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  is_favorite BOOLEAN DEFAULT FALSE
+);
+
+ALTER TABLE saved_calculations ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Users can CRUD own calculations" ON saved_calculations
+  FOR ALL USING (auth.uid() = user_id);
+```
+
+### New Files
+
+#### [NEW] `Services/CalculationStorageService.swift`
+- `saveCalculation(name:, viewModel:)` — serializes inputs + results to JSON
+- `loadCalculations()` → `[SavedCalculation]`
+- `deleteCalculation(id:)`
+- `toggleFavorite(id:)`
+- Local cache via CoreData/UserDefaults for offline access
+
+#### [NEW] `Models/SavedCalculation.swift`
+- `id`, `name`, `calculatorType`, `inputs`, `result`, `createdAt`, `isFavorite`
+- `Codable` conformance for Supabase serialization
+
+#### [NEW] `Views/History/HistoryView.swift`
+- List of saved calculations grouped by date
+- Swipe to delete, tap to restore and view
+- Search and filter by calculator type
+- Favorite toggle (star icon)
+- Empty state for new users
+
+#### [NEW] `Views/History/SaveCalculationSheet.swift`
+- Modal presented after viewing results
+- Name input field (with auto-suggestion like "Home Loan - Feb 2026")
+- Save button → stores to Supabase + local cache
+
+### Modified Files
+
+#### [MODIFY] [HomeView.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/Views/Main/HomeView.swift)
+- Add "History" tab/button in toolbar or as a bottom section
+- Show recent 3 saved calculations as quick-access cards
+
+#### [MODIFY] [ResultsView.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/Views/Results/ResultsView.swift)
+- Add "Save Calculation" button (bookmark icon) in toolbar
+- Only visible for authenticated users
+- Shows `SaveCalculationSheet` on tap
+
+---
+
+## Milestone 4 — Pro Tier (Subscription)
+
+### StoreKit Integration
+
+#### [NEW] `Services/StoreKitManager.swift`
+- StoreKit 2 API for subscription management
+- Products: `loanpro_monthly` ($2.99/mo), `loanpro_yearly` ($19.99/yr)
+- `@Published var isPro: Bool`
+- Receipt validation via Supabase Edge Function
+- Restore purchases support
+
+#### [NEW] `Views/Pro/ProUpgradeView.swift`
+- Premium paywall screen with feature comparison
+- Free vs Pro feature table
+- Subscription pricing cards (monthly/yearly with savings badge)
+- "Restore Purchases" link
+- Terms of service / privacy policy links (required by App Store)
+
+### Pro Features
+
+| Feature | Free Users | Pro Users |
+|---|---|---|
+| All calculators | ✅ | ✅ |
+| Banner ads | Shown | **Hidden** |
+| Native ads | Shown | **Hidden** |
+| Interstitial ads | Shown | **Hidden** |
+| PDF/CSV export | Costs coins | **Free (unlimited)** |
+| Full amortization | Watch reward ad | **Always unlocked** |
+| Saved calculations | Up to 5 | **Unlimited** |
+| Calculation history | Last 10 | **Unlimited** |
+| Dark mode | ✅ | ✅ |
+| Priority support | ❌ | ✅ |
+
+### Modified Files
+
+#### [MODIFY] [AdService.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/Services/AdService.swift)
+- Check `StoreKitManager.shared.isPro` before loading/showing any ad
+- If pro → skip all ad loading entirely (saves bandwidth)
+
+#### [MODIFY] [CoinManager.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/Services/CoinManager.swift)
+- If pro → bypass coin checks on export (always allow)
+
+#### [MODIFY] [ResultsView.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/Views/Results/ResultsView.swift)
+- If pro → hide reward ad button, show amortization directly
+- If pro → remove coin cost labels from export menu
+
+#### [MODIFY] [SettingsView.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/Views/Main/SettingsView.swift)
+- Add "LoanPro+" upgrade card with gold gradient
+- Show "Pro" badge next to user name if subscribed
+
+---
+
+## Milestone 5 — UX Polish
+
+#### [MODIFY] [LoanPro2025App.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/App/LoanPro2025App.swift)
+- Remove `.preferredColorScheme(.light)` to enable dark mode
+- Add system/light/dark mode toggle in settings
+
+#### [MODIFY] [SettingsView.swift](file:///Users/inkalvadodariya/loan_calculator/loan_calculator/Views/Main/SettingsView.swift)
+- Add "Appearance" setting (System / Light / Dark)
+
+#### [NEW] `Views/Onboarding/OnboardingCarouselView.swift`
+- 3-step visual onboarding after country selection:
+  1. "Choose your calculator" — grid preview
+  2. "Get detailed analysis" — results preview  
+  3. "Earn coins, download reports" — coin system intro
+- Shown once, tracked via `UserDefaults`
+
+#### [MODIFY] Multiple views
+- Add `SKStoreReviewController.requestReview()` after 3rd calculation
+- Track calculation count in `SettingsManager`
+
+---
+
+## Dependencies to Add
+
+| Package | Purpose | Method |
+|---|---|---|
+| `supabase-swift` | Auth + Database + Realtime | SPM: `https://github.com/supabase/supabase-swift` |
+| `GoogleSignIn-iOS` | Google sign-in | SPM: `https://github.com/google/GoogleSignIn-iOS` |
+
+Apple Sign In uses native `AuthenticationServices` framework (no external dependency).
+
+---
+
+## Verification Plan
+
+### Milestone 1 (Auth)
+- Sign in with all 3 methods → verify user created in Supabase dashboard
+- Sign out → verify session cleared
+- Guest mode → verify all calculator features still work
+- Kill app → reopen → verify session persists
+
+### Milestone 2 (Cloud Sync)
+- Sign in → verify coin balance syncs to Supabase
+- Earn coins → verify cloud balance updates
+- Sign in on hypothetical second device → verify same balance
+- Go offline → earn coins → go online → verify sync
+
+### Milestone 3 (Saved Calcs)
+- Save 3 calculations → verify they appear in History
+- Delete one → verify removal
+- Tap a saved calc → verify it restores inputs and navigates to results
+- Search/filter → verify correct results
+
+### Milestone 4 (Pro)
+- Purchase subscription (sandbox) → verify ads disappear
+- Export PDF/CSV → verify no coin cost
+- Cancel subscription → verify ads return
+- Restore purchases → verify pro status restored
+
+### Milestone 5 (UX)
+- Toggle dark mode → verify all screens render correctly
+- Complete 3 calculations → verify rate prompt appears
+- Fresh install → verify onboarding carousel appears once
